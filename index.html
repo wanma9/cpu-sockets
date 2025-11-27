@@ -5804,10 +5804,10 @@
     <link rel="dns-prefetch" href="//meta.wikimedia.org">
     <link rel="dns-prefetch" href="auth.wikimedia.org">
 </head>
-
 <body>
-    <table class="wikitable sortable jquery-tablesorter" style="font-size: 90%; text-align: center; width: 100%;">
-
+    <h1>Sockets de CPU - Historia y Especificaciones</h1>
+    
+    <table class="wikitable sortable jquery-tablesorter">
         <thead>
             <tr>
                 <th style="width:8em" class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">
@@ -5817,2078 +5817,1423 @@
                     Nombre del<br>socket
                 </th>
                 <th style="width:2em" class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">
-                    Año de
-                    introducción
+                    Año de introducción
                 </th>
-                <th style="width:14em" class="headerSort" tabindex="0" role="columnheader button"
-                    title="Ordenar ascendente">
+                <th style="width:14em" class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">
                     Familias de CPU Compatibles
                 </th>
-                <th class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">Tipo de ordenador
-                </th>
-                <th class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">Encapsulado
-                </th>
-                <th data-sort-type="number" class="headerSort" tabindex="0" role="columnheader button"
-                    title="Ordenar ascendente">
+                <th class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">Tipo de ordenador</th>
+                <th class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">Encapsulado</th>
+                <th data-sort-type="number" class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">
                     Número de pines
                 </th>
-                <th class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">Espaciado<br>de pines (mm)
-                </th>
-                <th class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">Reloj del bus y<br>transferencias
-                </th>
-                <th style="width:18em" class="headerSort" tabindex="0" role="columnheader button"
-                    title="Ordenar ascendente">Notas
-                </th>
+                <th class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">Espaciado<br>de pines (mm)</th>
+                <th class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">Reloj del bus y<br>transferencias</th>
+                <th style="width:18em" class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">Notas</th>
             </tr>
         </thead>
         <tbody>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/DIP.png" alt=""></TH>
-                <th style="text-align:left; background:#cdf;">
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/DIP.png" alt="Socket DIP"></td>
+                <td style="text-align:left;">
                     <a href="https://en.wikipedia.org/wiki/Dual_in-line_package" title="Dual in-line package">DIP</a>
-                </th>
-                <td>Años 1970
                 </td>
-                <td><a href="https://en.wikipedia.org/wiki/Intel" title="Intel">Intel</a> <a
-                        href="https://en.wikipedia.org/wiki/8086" class="mw-redirect" title="8086">8086</a><br>Intel <a
-                        href="https://en.wikipedia.org/wiki/8088" class="mw-redirect" title="8088">8088</a>
-                </td>
+                <td>Años 1970</td>
                 <td>
+                    <a href="https://en.wikipedia.org/wiki/Intel" title="Intel">Intel</a> 
+                    <a href="https://en.wikipedia.org/wiki/8086" class="mw-redirect" title="8086">8086</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/8088" class="mw-redirect" title="8088">8088</a>
                 </td>
-                <td><a href="https://en.wikipedia.org/wiki/Dual_in-line_package" title="Dual in-line package">DIP</a>
-                </td>
-                <td>40
-                </td>
-                <td>2.54
-                </td>
-                <td>5/10&nbsp;MHz
-                </td>
-                <td>
-                </td>
+                <td></td>
+                <td><a href="https://en.wikipedia.org/wiki/Dual_in-line_package" title="Dual in-line package">DIP</a></td>
+                <td>40</td>
+                <td>2.54</td>
+                <td>5/10 MHz</td>
+                <td class="notes-cell">Uno de los primeros formatos para microprocesadores, utilizado en computadoras como la IBM PC original.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/PLCC.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a
-                        href="https://en.wikipedia.org/wiki/Plastic_leaded_chip_carrier" class="mw-redirect"
-                        title="Plastic leaded chip carrier">PLCC</a>
-                </th>
-                <td>1982
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/PLCC.jpg" alt="Socket PLCC"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Plastic_leaded_chip_carrier" class="mw-redirect" title="Plastic leaded chip carrier">PLCC</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/80186" class="mw-redirect"
-                        title="80186">80186</a><br>Intel <a href="https://en.wikipedia.org/wiki/80286"
-                        class="mw-redirect" title="80286">80286</a><br>Intel <a
-                        href="https://en.wikipedia.org/wiki/80386" class="mw-redirect" title="80386">80386</a>
-                </td>
+                <td>1982</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/80186" class="mw-redirect" title="80186">80186</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/80286" class="mw-redirect" title="80286">80286</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/80386" class="mw-redirect" title="80386">80386</a>
                 </td>
-                <td><a href="https://en.wikipedia.org/wiki/Plastic_leaded_chip_carrier" class="mw-redirect"
-                        title="Plastic leaded chip carrier">PLCC</a>
-                </td>
-                <td>68 a 132
-                </td>
-                <td>1.27
-                </td>
-                <td>6–40&nbsp;MHz
-                </td>
-                <td>
-                </td>
+                <td></td>
+                <td><a href="https://en.wikipedia.org/wiki/Plastic_leaded_chip_carrier" class="mw-redirect" title="Plastic leaded chip carrier">PLCC</a></td>
+                <td>68 a 132</td>
+                <td>1.27</td>
+                <td>6–40 MHz</td>
+                <td class="notes-cell">Formato más compacto que permitía mayor densidad de componentes en las placas base.</td>
             </tr>
             <tr>
-                <tr style="vertical-align:center; background:#cdf;"></tr>
-                <TH><img class="img-socket" src="./SOCKET/PGA68.jpg" alt=""></TH>
-                <th style="text-align:left;">PGA68
-                </th>
-                <td>1982
-                </td>
-                <td>Intel 80286
-                </td>
-                <td>
-                </td>
-                <td><a href="https://en.wikipedia.org/wiki/Pin_grid_array" title="Pin grid array">sPGA</a>
-                </td>
-                <td>68
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td><img class="img-socket" src="./SOCKET/PGA68.jpg" alt="Socket PGA68"></td>
+                <td style="text-align:left;">PGA68</td>
+                <td>1982</td>
+                <td>Intel 80286</td>
+                <td></td>
+                <td><a href="https://en.wikipedia.org/wiki/Pin_grid_array" title="Pin grid array">sPGA</a></td>
+                <td>68</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Primera implementación del formato PGA para microprocesadores.</td>
             </tr>
             <tr>
-                <TH><img class="img-socket" src="./SOCKET/PGA132.jpg" alt=""></TH>
-                <th style="text-align:left;">PGA132
-                </th>
-                <td>1985
-                </td>
-                <td>Intel 80386
-                </td>
+                <td><img class="img-socket" src="./SOCKET/PGA132.jpg" alt="Socket PGA132"></td>
+                <td style="text-align:left;">PGA132</td>
+                <td>1985</td>
+                <td>Intel 80386</td>
+                <td></td>
+                <td>sPGA</td>
+                <td>132</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Utilizado para los primeros procesadores 386, marcando el inicio de la era de los 32 bits.</td>
+            </tr>
+            <tr>
+                <td><img class="img-socket" src="./SOCKET/PGA168.jpg" alt="Socket PGA168"></td>
+                <td style="text-align:left;">PGA168</td>
+                <td>1989</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/80486" class="mw-redirect" title="80486">80486</a><br>
+                    AMD 486<br>
+                    Cyrix 486
                 </td>
-                <td>sPGA
+                <td></td>
+                <td>sPGA</td>
+                <td>168</td>
+                <td>2.54</td>
+                <td>16–50 MHz</td>
+                <td class="notes-cell">A veces denominado Socket 0 o Socket 486. Introdujo el coprocesador matemático integrado.</td>
+            </tr>
+            <tr>
+                <td><img class="img-socket" src="./SOCKET/Socket 1.png" alt="Socket 1"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_1" title="Socket 1">Socket 1</a>
                 </td>
-                <td>132
-                </td>
+                <td>1989</td>
                 <td>
+                    Intel 80486<br>
+                    AMD 486<br>
+                    AMD 5x86<br>
+                    Cyrix 486<br>
+                    Cyrix 5x86
                 </td>
+                <td></td>
+                <td>PGA</td>
+                <td>169</td>
+                <td>2.54</td>
+                <td>16–50 MHz</td>
+                <td class="notes-cell">Primer socket numerado oficialmente por Intel. Compatible con actualizaciones OverDrive.</td>
+            </tr>
+            <tr>
+                <td><img class="img-socket" src="./SOCKET/Socket 2.jpg" alt="Socket 2"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_2" title="Socket 2">Socket 2</a>
+                </td>
+                <td>Años 1990</td>
                 <td>
+                    Intel 80486<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_OverDrive" title="Pentium OverDrive">Pentium OverDrive</a> (P24T)<br>
+                    Intel DX4<br>
+                    AMD 486<br>
+                    AMD 5x86<br>
+                    Cyrix 486<br>
+                    Cyrix 5x86
                 </td>
+                <td></td>
+                <td>PGA</td>
+                <td>238</td>
+                <td>2.54</td>
+                <td>16–50 MHz</td>
+                <td class="notes-cell">Permitía actualizaciones a procesadores Pentium OverDrive en sistemas 486.</td>
+            </tr>
+            <tr>
+                <td><img class="img-socket" src="./SOCKET/Socket 3.jpg" alt="Socket 3"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_3" title="Socket 3">Socket 3</a>
+                </td>
+                <td>1991</td>
                 <td>
+                    Intel 80486<br>
+                    Intel Pentium OverDrive (P24T)<br>
+                    Intel DX4<br>
+                    AMD 486<br>
+                    AMD 5x86<br>
+                    Cyrix 486<br>
+                    Cyrix 5x86<br>
+                    IBM Blue Lightning
                 </td>
+                <td></td>
+                <td>PGA</td>
+                <td>237</td>
+                <td>2.54</td>
+                <td>&nbsp;16–50 MHz<sup id="cite_ref-66MHz486_1-0" class="reference"><a href="#cite_note-66MHz486-1"><span class="cite-bracket">[</span>a<span class="cite-bracket">]</span></a></sup></td>
+                <td class="notes-cell">Soporte para voltajes duales (3.3V y 5V), permitiendo mayor compatibilidad con diferentes procesadores.</td>
             </tr>
-            <tr style="vertical-align:center;">
-                <TH><img class="img-socket" src="./SOCKET/PGA168.jpg" alt=""></TH>
-                <th style="text-align:left;">PGA168
-                </th>
-                <td>1989
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 4.jpg" alt="Socket 4"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_4" title="Socket 4">Socket 4</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/80486" class="mw-redirect"
-                        title="80486">80486</a><br>AMD 486<br>Cyrix 486
-                </td>
+                <td>1993</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Intel_P5" class="mw-redirect" title="Intel P5">Pentium</a>
                 </td>
-                <td>sPGA
-                </td>
-                <td>168
-                </td>
-                <td>2.54
-                </td>
-                <td>16–50&nbsp;MHz
-                </td>
-                <td>A veces denominado Socket 0 o Socket 486
-                </td>
+                <td></td>
+                <td>PGA</td>
+                <td>273</td>
+                <td>?</td>
+                <td>60–100 MHz</td>
+                <td class="notes-cell">Primer socket diseñado específicamente para la arquitectura Pentium.</td>
             </tr>
-            <tr style="vertical-align:center;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 1.png" alt=""></TH>
-                <th style="text-align:left;"><a href="https://en.wikipedia.org/wiki/Socket_1" title="Socket 1">Socket
-                        1</a>
-
-                </th>
-                <td>1989
+            <tr>
+                <td><img class="img-socket" src="./SOCKET/Socket 5.jpg" alt="Socket 5"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_5" title="Socket 5">Socket 5</a>
                 </td>
-                <td>Intel 80486<br>AMD 486<br>AMD 5x86<br>Cyrix 486<br>Cyrix 5x86
-                </td>
+                <td>1994</td>
                 <td>
+                    Intel Pentium<br>
+                    <a href="https://en.wikipedia.org/wiki/Advanced_Micro_Devices" class="mw-redirect" title="Advanced Micro Devices">AMD</a> 
+                    <a href="https://en.wikipedia.org/wiki/AMD_K5" title="AMD K5">K5</a><br>
+                    <a href="https://en.wikipedia.org/wiki/Cyrix" title="Cyrix">Cyrix</a> 
+                    <a href="https://en.wikipedia.org/wiki/Cyrix_6x86" title="Cyrix 6x86">6x86</a><br>
+                    <a href="https://en.wikipedia.org/wiki/Integrated_Device_Technology" title="Integrated Device Technology">IDT</a> 
+                    <a href="https://en.wikipedia.org/wiki/WinChip" title="WinChip">WinChip</a> C6<br>
+                    IDT WinChip 2
                 </td>
-                <td>PGA
+                <td></td>
+                <td>PGA</td>
+                <td>320</td>
+                <td>?</td>
+                <td>50–100 MHz</td>
+                <td class="notes-cell">Primer socket que admitía múltiples fabricantes de procesadores compatibles con Pentium.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 6.jpg" alt="Socket 6"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_6" title="Socket 6">Socket 6</a>
                 </td>
-                <td>169
-                </td>
-                <td>2.54
-                </td>
-                <td>16–50&nbsp;MHz
-                </td>
+                <td>?</td>
+                <td>Intel 80486</td>
+                <td></td>
+                <td>PGA</td>
+                <td>235</td>
+                <td>?</td>
+                <td>?</td>
+                <td class="notes-cell">Diseñado pero no utilizado. Hubiera sido el sucesor del Socket 3 para procesadores 486.</td>
+            </tr>
+            <tr>
+                <td><img class="img-socket" src="./SOCKET/Socket 463.jpg" alt="Socket 463"></td>
+                <td style="text-align:left;">Socket 463<br>Socket NexGen</td>
+                <td>1994</td>
                 <td>
+                    <a href="https://en.wikipedia.org/wiki/NexGen" title="NexGen">NexGen</a> 
+                    <a href="https://en.wikipedia.org/wiki/Nx586" class="mw-redirect" title="Nx586">Nx586</a>
                 </td>
+                <td></td>
+                <td>PGA</td>
+                <td>463</td>
+                <td>?</td>
+                <td>37.5–66 MHz</td>
+                <td class="notes-cell">Socket propietario utilizado exclusivamente por los procesadores NexGen Nx586.</td>
             </tr>
-            <tr style="vertical-align:center;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 2.jpg" alt=""></TH>
-                <th style="text-align:left;"><a href="https://en.wikipedia.org/wiki/Socket_2" title="Socket 2">Socket
-                        2</a>
-
-                </th>
-                <td>Años 1990
+            <tr>
+                <td><img class="img-socket" src="./SOCKET/Socket 7.jpg" alt="Socket 7"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_7" title="Socket 7">Socket 7</a>
                 </td>
-                <td>Intel 80486<br>Intel <a href="https://en.wikipedia.org/wiki/Pentium_OverDrive"
-                        title="Pentium OverDrive">Pentium
-                        OverDrive</a>
-                    (P24T)<br>Intel DX4<br>AMD 486<br>AMD 5x86<br>Cyrix 486<br>Cyrix 5x86
-                </td>
+                <td>1994</td>
                 <td>
+                    Intel Pentium<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_MMX" class="mw-redirect" title="Pentium MMX">Pentium MMX</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/AMD_K6" title="AMD K6">K6</a>
                 </td>
-                <td>PGA
+                <td></td>
+                <td>PGA</td>
+                <td>321</td>
+                <td>?</td>
+                <td>50–66 MHz</td>
+                <td class="notes-cell">Es posible usar procesadores Socket 7 en un Socket 5. Se requiere un adaptador, o si uno tiene cuidado, un socket 7 se puede extraer de sus pines y colocar en una placa socket 5, permitiendo el uso de procesadores socket 7. Se convirtió en estándar de la industria para procesadores Pentium.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 8.jpg" alt="Socket 8"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_8" title="Socket 8">Socket 8</a>
                 </td>
-                <td>238
-                </td>
-                <td>2.54
-                </td>
-                <td>16–50&nbsp;MHz
-                </td>
+                <td>1995</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_Pro" title="Pentium Pro">Pentium Pro</a>
                 </td>
+                <td></td>
+                <td>PGA</td>
+                <td>387</td>
+                <td>?</td>
+                <td>60–66 MHz</td>
+                <td class="notes-cell">Diseñado específicamente para el Pentium Pro, que integraba la caché L2 en el mismo encapsulado.</td>
             </tr>
-            <tr style="vertical-align:center;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 3.jpg" alt=""></TH>
-                <th style="text-align:left;"><a href="https://en.wikipedia.org/wiki/Socket_3" title="Socket 3">Socket
-                        3</a>
-
-                </th>
-                <td>1991
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Slot 1.jpg" alt="Slot 1"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Slot_1" title="Slot 1">Slot 1</a>
                 </td>
-                <td>Intel 80486<br>Intel Pentium OverDrive (P24T)<br>Intel DX4<br>AMD 486<br>AMD 5x86<br>Cyrix
-                    486<br>Cyrix
-                    5x86<br>IBM Blue Lightning
-                </td>
+                <td>1997</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_II" title="Pentium II">Pentium II</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_III" title="Pentium III">Pentium III</a>
                 </td>
-                <td>PGA
+                <td>Escritorio</td>
+                <td><a href="https://en.wikipedia.org/wiki/Edge_connector" title="Edge connector">SECC</a></td>
+                <td>242</td>
+                <td>?</td>
+                <td>66–133 MHz</td>
+                <td class="notes-cell">Celeron (Covington, Mendocino)<br>Pentium II (Klamath, Deschutes)<br>Pentium III (Katmai)- todas las versiones<br>Pentium III (coppermine). Representó un cambio radical del formato PGA al formato de slot.</td>
+            </tr>
+            <tr>
+                <td><img class="img-socket" src="./SOCKET/Super Socket 7.jpg" alt="Super Socket 7"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Super_Socket_7" title="Super Socket 7">Super Socket 7</a>
                 </td>
-                <td>237
-                </td>
-                <td>2.54
-                </td>
-                <td>&nbsp;16–50&nbsp;MHz<sup id="cite_ref-66MHz486_1-0" class="reference"><a
-                            href="#cite_note-66MHz486-1"><span class="cite-bracket">[</span>a<span
-                                class="cite-bracket">]</span></a></sup>
-                </td>
+                <td>1998</td>
                 <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/AMD_K6-2" title="AMD K6-2">K6-2</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/AMD_K6-III" title="AMD K6-III">K6-III</a><br>
+                    <a href="https://en.wikipedia.org/wiki/Rise_Technology" title="Rise Technology">Rise</a> 
+                    <a href="https://en.wikipedia.org/wiki/MP6" title="MP6">mP6</a><br>
+                    Cyrix <a href="https://en.wikipedia.org/wiki/Cyrix_6x86" title="Cyrix 6x86">MII</a>
                 </td>
+                <td></td>
+                <td>PGA</td>
+                <td>321</td>
+                <td>?</td>
+                <td>66–100 MHz</td>
+                <td class="notes-cell">RetroCompatible con procesadores Socket 5 y Socket 7. AMD extendió la vida del Socket 7 con mejoras de rendimiento.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 4.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_4"
-                        title="Socket 4">Socket 4</a>
-                </th>
-                <td>1993
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Slot 2.jpg" alt="Slot 2"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Slot_2" title="Slot 2">Slot 2</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Intel_P5" class="mw-redirect"
-                        title="Intel P5">Pentium</a>
-                </td>
+                <td>1998</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_II_Xeon" class="mw-redirect" title="Pentium II Xeon">Pentium II Xeon</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_III_Xeon" class="mw-redirect" title="Pentium III Xeon">Pentium III Xeon</a>
                 </td>
-                <td>PGA
-                </td>
-                <td>273
-                </td>
-                <td>?
-                </td>
-                <td>60–100&nbsp;MHz
-                </td>
+                <td>Servidor</td>
+                <td>SECC2</td>
+                <td>330</td>
+                <td>?</td>
+                <td>100–133 MHz</td>
+                <td class="notes-cell">Versión de servidor del Slot 1, diseñado para procesadores Xeon con mayor caché L2.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="" alt="Socket 615"></td>
+                <td style="text-align:left;">Socket 615</td>
+                <td>1999</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Mobile_Pentium_II" class="mw-redirect" title="Mobile Pentium II">Mobile Pentium II</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Mobile_Celeron" class="mw-redirect" title="Mobile Celeron">Mobile Celeron</a>
                 </td>
+                <td>Portátil</td>
+                <td>PGA</td>
+                <td>615</td>
+                <td>?</td>
+                <td>66 MHz</td>
+                <td class="notes-cell">Diseñado específicamente para procesadores móviles de la era Pentium II.</td>
             </tr>
-            <tr style="vertical-align:center;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 5.jpg" alt=""></TH>
-                <th style="text-align:left;"><a href="https://en.wikipedia.org/wiki/Socket_5" title="Socket 5">Socket
-                        5</a>
-
-                </th>
-                <td>1994
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Slot A.jpg" alt="Slot A"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Slot_A" title="Slot A">Slot A</a>
                 </td>
-                <td>Intel Pentium<br><a href="https://en.wikipedia.org/wiki/Advanced_Micro_Devices" class="mw-redirect"
-                        title="Advanced Micro Devices">AMD</a> <a href="https://en.wikipedia.org/wiki/AMD_K5"
-                        title="AMD K5">K5</a><br><a href="https://en.wikipedia.org/wiki/Cyrix" title="Cyrix">Cyrix</a>
-                    <a href="https://en.wikipedia.org/wiki/Cyrix_6x86" title="Cyrix 6x86">6x86</a><br><a
-                        href="https://en.wikipedia.org/wiki/Integrated_Device_Technology"
-                        title="Integrated Device Technology">IDT</a> <a href="https://en.wikipedia.org/wiki/WinChip"
-                        title="WinChip">WinChip</a>
-                    C6<br>IDT WinChip 2
-                </td>
+                <td>1999</td>
                 <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon" title="Athlon">Athlon</a>
                 </td>
-                <td>PGA
+                <td>Escritorio</td>
+                <td>SECC</td>
+                <td>242</td>
+                <td>?</td>
+                <td>100 MHz</td>
+                <td class="notes-cell">Primer socket de AMD que competía directamente con los Pentium III de Intel en rendimiento.</td>
+            </tr>
+            <tr>
+                <td><img class="img-socket" src="./SOCKET/Socket 370.JPG" alt="Socket 370"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_370" title="Socket 370">Socket 370</a>
                 </td>
-                <td>320
-                </td>
-                <td>?
-                </td>
-                <td>50–100&nbsp;MHz
-                </td>
+                <td>1999</td>
                 <td>
+                    Intel Pentium III<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Celeron" title="Celeron">Celeron</a><br>
+                    <a href="https://en.wikipedia.org/wiki/VIA_Technologies" title="VIA Technologies">VIA</a> 
+                    <a href="https://en.wikipedia.org/wiki/Cyrix_III" title="Cyrix III">Cyrix III</a><br>
+                    VIA <a href="https://en.wikipedia.org/wiki/VIA_C3" title="VIA C3">C3</a>
                 </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>370</td>
+                <td>1.27<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup></td>
+                <td>66–133 MHz</td>
+                <td class="notes-cell">Marcó el regreso de Intel al formato PGA después del experimento con los slots.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 6.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_6"
-                        title="Socket 6">Socket 6</a>
-                </th>
-                <td>?
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket 462.jpg" alt="Socket 462"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_A" title="Socket A">Socket A</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_462" class="mw-redirect" title="Socket 462">Socket 462</a>
                 </td>
-                <td>Intel 80486
-                </td>
+                <td>2000</td>
                 <td>
+                    AMD Athlon<br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Duron" title="Duron">Duron</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon#Athlon_XP/MP" title="Athlon">Athlon XP</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon#Athlon_XP/MP" title="Athlon">Athlon XP-M</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon#Athlon_XP/MP" title="Athlon">Athlon MP</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Sempron" title="Sempron">Sempron</a>
                 </td>
-                <td>PGA
-                </td>
-                <td>235
-                </td>
-                <td>?
-                </td>
-                <td>?
-                </td>
-                <td>Diseñado pero no utilizado
-                </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>462</td>
+                <td>?</td>
+                <td>100–200 MHz<br>400 MT/s<sup id="cite_ref-dbl_rate_3-0" class="reference"><a href="#cite_note-dbl_rate-3"><span class="cite-bracket">[</span>b<span class="cite-bracket">]</span></a></sup></td>
+                <td class="notes-cell">Uno de los sockets más exitosos de AMD, utilizado durante varios años y múltiples generaciones de procesadores.</td>
             </tr>
-            <tr style="vertical-align:center;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 463.jpg" alt=""></TH>
-                <th style="text-align:left;">Socket 463<br>Socket NexGen
-                </th>
-                <td>1994
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 423.jpg" alt="Socket 423"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_423" title="Socket 423">Socket 423</a>
                 </td>
-                <td><a href="https://en.wikipedia.org/wiki/NexGen" title="NexGen">NexGen</a> <a
-                        href="https://en.wikipedia.org/wiki/Nx586" class="mw-redirect" title="Nx586">Nx586</a>
-                </td>
+                <td>2000</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_4" title="Pentium 4">Pentium 4</a>
                 </td>
-                <td>PGA
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>423</td>
+                <td>1<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup></td>
+                <td>100 MHz<br>400 MT/s</td>
+                <td class="notes-cell">Núcleo Willamette únicamente.<br>Puede aceptar algunos CPU Socket 478 con un adaptador <br> Fue el primer microprocesador de Intel en utilizar la tecnología IHS (Integrated Heat Spreader), una placa de metal que hace la función de disipador de calor y protege el chip de daños mecánicos.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 495.jpg" alt="Socket 495"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_495" title="Socket 495">Socket 495</a>
                 </td>
-                <td>463
-                </td>
-                <td>?
-                </td>
-                <td>37.5–66&nbsp;MHz
-                </td>
+                <td>2000</td>
                 <td>
+                    Intel Celeron<br>
+                    Intel Pentium III
                 </td>
+                <td>Portátil</td>
+                <td>PGA</td>
+                <td>495</td>
+                <td>1.27<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup></td>
+                <td>66–133 MHz</td>
+                <td class="notes-cell">Socket móvil para la transición entre Pentium III y Pentium 4 móvil.</td>
             </tr>
-            <tr style="vertical-align:center;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 7.jpg" alt=""></TH>
-                <th style="text-align:left;"><a href="https://en.wikipedia.org/wiki/Socket_7" title="Socket 7">Socket
-                        7</a>
-
-                </th>
-                <td>1994
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 603.JPG" alt="Socket 603"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_603" title="Socket 603">Socket 603</a>
                 </td>
-                <td>Intel Pentium<br>Intel <a href="https://en.wikipedia.org/wiki/Pentium_MMX" class="mw-redirect"
-                        title="Pentium MMX">Pentium
-                        MMX</a><br>AMD <a href="https://en.wikipedia.org/wiki/AMD_K6" title="AMD K6">K6</a>
-                </td>
+                <td>2001</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Xeon" title="Xeon">Xeon</a>
                 </td>
-                <td>PGA
-                </td>
-                <td>321
-                </td>
-                <td>?
-                </td>
-                <td>50–66&nbsp;MHz
-                </td>
-                <td>Es posible usar procesadores Socket 7 en un Socket 5. Se requiere un adaptador, o si uno tiene cuidado, un socket 7 se puede extraer de sus pines y colocar en una placa socket 5, permitiendo el uso de procesadores socket 7.
-                </td>
+                <td>Servidor</td>
+                <td>PGA</td>
+                <td>603</td>
+                <td>1.27<sup id="cite_ref-intel.com_6-0" class="reference"><a href="#cite_note-intel.com-6"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup></td>
+                <td>100–133 MHz<br>400–533 MT/s</td>
+                <td class="notes-cell">Primer socket PGA para procesadores Xeon después del formato Slot.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 8.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_8"
-                        title="Socket 8">Socket 8</a>
-                </th>
-                <td>1995
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/PGA478.jpg" alt="Socket 478"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_478" title="Socket 478">Socket 478</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_N" class="mw-redirect" title="Socket N">Socket N</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Pentium_Pro" title="Pentium Pro">Pentium Pro</a>
-                </td>
+                <td>2001</td>
                 <td>
+                    Intel Pentium 4<br>
+                    Intel Celeron<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/P4EE#Extreme_Edition" class="mw-redirect" title="P4EE">Pentium 4 EE</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/List_of_Intel_Pentium_4_processors#Mobile_processors" title="List of Intel Pentium 4 processors">Pentium 4 M</a>
                 </td>
-                <td>PGA
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>478</td>
+                <td>1.27<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup></td>
+                <td>100–200 MHz<br>400–800 MT/s</td>
+                <td class="notes-cell">Socket muy popular que soportó múltiples generaciones de Pentium 4 y Celeron.</td>
+            </tr>
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/PGA563.jpg" alt="Socket 563"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_563" title="Socket 563">Socket 563</a>
                 </td>
-                <td>387
-                </td>
-                <td>?
-                </td>
-                <td>60–66&nbsp;MHz
-                </td>
+                <td>2002</td>
                 <td>
+                    AMD Athlon XP-M
                 </td>
+                <td>Portátil</td>
+                <td>PGA</td>
+                <td>563</td>
+                <td>?</td>
+                <td>333 MHz</td>
+                <td class="notes-cell">Socket móvil para procesadores Athlon XP-M de AMD.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Slot 1.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Slot_1"
-                        title="Slot 1">Slot 1</a>
-                </th>
-                <td>1997
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 604.jpg" alt="Socket 604"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_604" title="Socket 604">Socket 604</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Pentium_II" title="Pentium II">Pentium II</a><br>Intel
-                    <a href="https://en.wikipedia.org/wiki/Pentium_III" title="Pentium III">Pentium III</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td><a href="https://en.wikipedia.org/wiki/Edge_connector" title="Edge connector">SECC</a>
-                </td>
-                <td>242
-                </td>
-                <td>?
-                </td>
-                <td>66–133&nbsp;MHz
-                </td>
-                <td>Celeron (Covington, Mendocino)<br>Pentium II (Klamath, Deschutes)<br>Pentium III (Katmai)- todas las versiones<br>Pentium III (coppermine)
-                </td>
-            </tr>
-            <tr style="vertical-align:center;">
-                <TH><img class="img-socket" src="./SOCKET/Super Socket 7.jpg" alt=""></TH>
-                <th style="text-align:left;"><a href="https://en.wikipedia.org/wiki/Super_Socket_7"
-                        title="Super Socket 7">Super Socket
-                        7</a>
-                </th>
-                <td>1998
-                </td>
-                <td>AMD <a href="https://en.wikipedia.org/wiki/AMD_K6-2" title="AMD K6-2">K6-2</a><br>AMD <a
-                        href="https://en.wikipedia.org/wiki/AMD_K6-III" title="AMD K6-III">K6-III</a><br><a
-                        href="https://en.wikipedia.org/wiki/Rise_Technology" title="Rise Technology">Rise</a> <a
-                        href="https://en.wikipedia.org/wiki/MP6" title="MP6">mP6</a><br>Cyrix <a
-                        href="https://en.wikipedia.org/wiki/Cyrix_6x86" title="Cyrix 6x86">MII</a>
-                </td>
+                <td>2002</td>
                 <td>
+                    Intel Xeon
                 </td>
-                <td>PGA
-                </td>
-                <td>321
-                </td>
-                <td>?
-                </td>
-                <td>66–100&nbsp;MHz
-                </td>
-                <td>RetroCompatible con procesadores Socket 5 y Socket 7.
-                </td>
+                <td>Servidor</td>
+                <td>PGA</td>
+                <td>604</td>
+                <td>1.27<sup id="cite_ref-intel.com_6-1" class="reference"><a href="#cite_note-intel.com-6"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup></td>
+                <td>100–266 MHz<br>400–1066 MT/s</td>
+                <td class="notes-cell">Evolución del Socket 603 con soporte para mayores velocidades de bus.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Slot 2.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Slot_2"
-                        title="Slot 2">Slot 2</a>
-                </th>
-                <td>1998
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket 754.jpg" alt="Socket 754"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_754" title="Socket 754">Socket 754</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Pentium_II_Xeon" class="mw-redirect"
-                        title="Pentium II Xeon">Pentium II
-                        Xeon</a><br>Intel <a href="https://en.wikipedia.org/wiki/Pentium_III_Xeon" class="mw-redirect"
-                        title="Pentium III Xeon">Pentium III
-                        Xeon</a>
-                </td>
-                <td>Servidor
-                </td>
-                <td>SECC2
-                </td>
-                <td>330
-                </td>
-                <td>?
-                </td>
-                <td>100–133&nbsp;MHz
-                </td>
+                <td>2003</td>
                 <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon_64" title="Athlon 64">Athlon 64</a><br>
+                    AMD Sempron<br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Turion_64" class="mw-redirect" title="Turion 64">Turion 64</a>
                 </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>754</td>
+                <td>1.27<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span class="cite-bracket">[</span>6<span class="cite-bracket">]</span></a></sup></td>
+                <td>200–800 MHz</td>
+                <td class="notes-cell">En esta generación de AMD fue cuando adaptaron la tecnología IHS (Integrated Heat Spreader) para proteger el chip y mejorar la disipación del calor. Primer socket de AMD para arquitectura de 64 bits.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="" alt=""></TH>
-                <th style="text-align:left; background:#cdf;">Socket 615
-                </th>
-                <td>1999
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket 940.png" alt="Socket 940"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_940" title="Socket 940">Socket 940</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Mobile_Pentium_II" class="mw-redirect"
-                        title="Mobile Pentium II">Mobile Pentium
-                        II</a><br>Intel <a href="https://en.wikipedia.org/wiki/Mobile_Celeron" class="mw-redirect"
-                        title="Mobile Celeron">Mobile
-                        Celeron</a>
-                </td>
-                <td>Portátil
-                </td>
-                <td>PGA
-                </td>
-                <td>615
-                </td>
-                <td>?
-                </td>
-                <td>66&nbsp;MHz
-                </td>
+                <td>2003</td>
                 <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/Opteron" title="Opteron">Opteron</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon_64_FX" class="mw-redirect" title="Athlon 64 FX">Athlon 64 FX</a>
                 </td>
+                <td>Escritorio<br>Servidor</td>
+                <td>PGA</td>
+                <td>940</td>
+                <td>1.27<sup id="cite_ref-amd.com2_9-0" class="reference"><a href="#cite_note-amd.com2-9"><span class="cite-bracket">[</span>7<span class="cite-bracket">]</span></a></sup></td>
+                <td>200–1000 MHz</td>
+                <td class="notes-cell">Socket para procesadores de alto rendimiento y servidores que requerían memoria registrada.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Slot A.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Slot_A"
-                        title="Slot A">Slot A</a>
-                </th>
-                <td>1999
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 479.jpg" alt="Socket 479"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_479" title="Socket 479">Socket 479</a>
                 </td>
-                <td>AMD <a href="https://en.wikipedia.org/wiki/Athlon" title="Athlon">Athlon</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>SECC
-                </td>
-                <td>242
-                </td>
-                <td>?
-                </td>
-                <td>100&nbsp;MHz
-                </td>
+                <td>2003</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_M" title="Pentium M">Pentium M</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Celeron_M" class="mw-redirect" title="Celeron M">Celeron M</a>
                 </td>
+                <td>Portátil</td>
+                <td>PGA</td>
+                <td>479<sup id="cite_ref-479note_10-0" class="reference"><a href="#cite_note-479note-10"><span class="cite-bracket">[</span>8<span class="cite-bracket">]</span></a></sup></td>
+                <td>?</td>
+                <td>100–133 MHz<br>400–533 MT/s</td>
+                <td class="notes-cell">Socket para la exitosa línea Pentium M que sentó las bases para la arquitectura Core.</td>
             </tr>
-            <tr style="vertical-align:center;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 370.JPG" alt=""></TH>
-                <th style="text-align:left;"><a href="https://en.wikipedia.org/wiki/Socket_370"
-                        title="Socket 370">Socket 370</a>
-                </th>
-                <td>1999
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket 939.jpg" alt="Socket 939"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_939" title="Socket 939">Socket 939</a>
                 </td>
-                <td>Intel Pentium III<br>Intel <a href="https://en.wikipedia.org/wiki/Celeron"
-                        title="Celeron">Celeron</a><br><a href="https://en.wikipedia.org/wiki/VIA_Technologies"
-                        title="VIA Technologies">VIA</a> <a href="https://en.wikipedia.org/wiki/Cyrix_III"
-                        title="Cyrix III">Cyrix III</a><br>VIA <a href="https://en.wikipedia.org/wiki/VIA_C3"
-                        title="VIA C3">C3</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>370
-                </td>
-                <td>1.27<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span
-                                class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>66–133&nbsp;MHz
-                </td>
+                <td>2004</td>
                 <td>
+                    AMD Athlon 64<br>
+                    AMD Athlon 64 FX<br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon_64_X2" title="Athlon 64 X2">Athlon 64 X2</a><br>
+                    AMD Opteron
                 </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>939</td>
+                <td>1.27<sup id="cite_ref-amd.com_11-0" class="reference"><a href="#cite_note-amd.com-11"><span class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup></td>
+                <td>200–1000 MHz</td>
+                <td class="notes-cell">Soporte de Athlon 64 FX a 1 GHz<br>Soporte de Opteron limitado solo a la serie 100. Unificó los sockets de gama alta y media de AMD.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 462.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_A"
-                        title="Socket A">Socket
-                        A</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_462" class="mw-redirect"
-                        title="Socket 462">Socket 462</a>
-                </th>
-                <td>2000
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 775.jpg" alt="LGA 775"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_775" title="LGA 775">LGA 775</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_T" class="mw-redirect" title="Socket T">Socket T</a>
                 </td>
-                <td>AMD Athlon<br>AMD <a href="https://en.wikipedia.org/wiki/Duron" title="Duron">Duron</a><br>AMD <a
-                        href="https://en.wikipedia.org/wiki/Athlon#Athlon_XP/MP" title="Athlon">Athlon XP</a><br>AMD <a
-                        href="https://en.wikipedia.org/wiki/Athlon#Athlon_XP/MP" title="Athlon">Athlon
-                        XP-M</a><br>AMD <a href="https://en.wikipedia.org/wiki/Athlon#Athlon_XP/MP"
-                        title="Athlon">Athlon MP</a><br>AMD <a href="https://en.wikipedia.org/wiki/Sempron"
-                        title="Sempron">Sempron</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>462
-                </td>
-                <td>?
-                </td>
-                <td>100–200&nbsp;MHz<br>400&nbsp;MT/s<sup id="cite_ref-dbl_rate_3-0" class="reference"><a
-                            href="#cite_note-dbl_rate-3"><span class="cite-bracket">[</span>b<span
-                                class="cite-bracket">]</span></a></sup>
-                </td>
+                <td>2004</td>
                 <td>
+                    Intel Pentium 4<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_D" title="Pentium D">Pentium D</a><br>
+                    Intel Celeron<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Celeron_D" class="mw-redirect" title="Celeron D">Celeron D</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Pentium_Extreme_Edition" class="mw-redirect" title="Pentium Extreme Edition">Pentium XE</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Core_2_Duo" class="mw-redirect" title="Core 2 Duo">Core 2 Duo</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Core_2_Quad" class="mw-redirect" title="Core 2 Quad">Core 2 Quad</a><br>
+                    Intel Xeon
                 </td>
+                <td>Escritorio</td>
+                <td><a href="https://en.wikipedia.org/wiki/Land_grid_array" title="Land grid array">LGA</a></td>
+                <td>775</td>
+                <td>1.09 x 1.17<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span class="cite-bracket">[</span>10<span class="cite-bracket">]</span></a></sup></td>
+                <td>1600 MHz</td>
+                <td class="notes-cell">Puede aceptar CPU LGA 771 con una ligera modificación y uso de un adaptador. Primer socket LGA de Intel para el mercado de consumo.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 423.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_423"
-                        title="Socket 423">Socket
-                        423</a>
-                </th>
-                <td>2000
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket M.jpg" alt="Socket M"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_M" title="Socket M">Socket M</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Pentium_4" title="Pentium 4">Pentium 4</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>423
-                </td>
-                <td>1<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span
-                                class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>100&nbsp;MHz<br>400&nbsp;MT/s
-                </td>
-                <td>Núcleo Willamette únicamente.<br>Puede aceptar algunos CPU Socket 478 con un adaptador <br> Fue el primer microprocesador de Intel en utilizar la tecnología IHS (Integrated Heat Spreader), una placa de metal que hace la función de disipador de calor y protege el chip de daños mecánicos.
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 495.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_495"
-                        title="Socket 495">Socket
-                        495</a>
-                </th>
-                <td>2000
-                </td>
-                <td>Intel Celeron<br>Intel Pentium III
-                </td>
-                <td>Portátil
-                </td>
-                <td>PGA
-                </td>
-                <td>495
-                </td>
-                <td>1.27<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span
-                                class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>66–133&nbsp;MHz
-                </td>
+                <td>2006</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Core_Solo" class="mw-redirect" title="Core Solo">Core Solo</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Core_Duo" class="mw-redirect" title="Core Duo">Core Duo</a><br>
+                    Intel Dual-Core Xeon<br>
+                    Intel Core 2 Duo
                 </td>
+                <td>Portátil</td>
+                <td>PGA</td>
+                <td>478</td>
+                <td>?</td>
+                <td>133–166 MHz<br>533–667 MT/s</td>
+                <td class="notes-cell">Reemplaza al Socket 479. Utilizado en la transición a la arquitectura Core.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 603.JPG" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_603"
-                        title="Socket 603">Socket
-                        603</a>
-                </th>
-                <td>2001
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 771.png" alt="LGA 771"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_771" title="LGA 771">LGA 771</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_J" class="mw-redirect" title="Socket J">Socket J</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Xeon" title="Xeon">Xeon</a>
-                </td>
-                <td>Servidor
-                </td>
-                <td>PGA
-                </td>
-                <td>603
-                </td>
-                <td>1.27<sup id="cite_ref-intel.com_6-0" class="reference"><a href="#cite_note-intel.com-6"><span
-                                class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>100–133&nbsp;MHz<br>400–533&nbsp;MT/s
-                </td>
+                <td>2006</td>
                 <td>
+                    Intel Xeon
                 </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>771</td>
+                <td>1.09 x 1.17<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span class="cite-bracket">[</span>11<span class="cite-bracket">]</span></a></sup></td>
+                <td>1600 MHz</td>
+                <td class="notes-cell">Ver LGA 775/Socket T arriba. Versión para servidores del formato LGA.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/PGA478.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_478"
-                        title="Socket 478">Socket
-                        478</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_N" class="mw-redirect"
-                        title="Socket N">Socket N</a>
-                </th>
-                <td>2001
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket S1.jpg" alt="Socket S1"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_S1" title="Socket S1">Socket S1</a>
                 </td>
-                <td>Intel Pentium 4<br>Intel Celeron<br>Intel <a
-                        href="https://en.wikipedia.org/wiki/P4EE#Extreme_Edition" class="mw-redirect"
-                        title="P4EE">Pentium 4 EE</a><br>Intel <a
-                        href="https://en.wikipedia.org/wiki/List_of_Intel_Pentium_4_processors#Mobile_processors"
-                        title="List of Intel Pentium 4 processors">Pentium 4 M</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>478
-                </td>
-                <td>1.27<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span
-                                class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>100–200&nbsp;MHz<br>400–800&nbsp;MT/s
-                </td>
+                <td>2006</td>
                 <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/Turion_64_X2" class="mw-redirect" title="Turion 64 X2">Turion 64 X2</a>
                 </td>
+                <td>Portátil</td>
+                <td>PGA</td>
+                <td>638</td>
+                <td>1.27<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span class="cite-bracket">[</span>12<span class="cite-bracket">]</span></a></sup></td>
+                <td>200–800 MHz</td>
+                <td class="notes-cell">Socket móvil para procesadores Turion 64 X2 de AMD.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/PGA563.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_563"
-                        title="Socket 563">Socket
-                        563</a>
-                </th>
-                <td>2002
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket AM2.jpg" alt="Socket AM2"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_AM2" title="Socket AM2">Socket AM2</a>
                 </td>
-                <td>AMD Athlon XP-M
-                </td>
-                <td>Portátil
-                </td>
-                <td>PGA
-                </td>
-                <td>563
-                </td>
-                <td>?
-                </td>
-                <td>333&nbsp;MHz
-                </td>
+                <td>2006</td>
                 <td>
+                    AMD Athlon 64<br>
+                    AMD Athlon 64 X2
                 </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>940</td>
+                <td>1.27<sup id="cite_ref-amd.com_11-1" class="reference"><a href="#cite_note-amd.com-11"><span class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup></td>
+                <td>200–1000 MHz</td>
+                <td class="notes-cell">Reemplaza al Socket 754 y Socket 939. Introdujo soporte para memoria DDR2.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 604.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_604"
-                        title="Socket 604">Socket
-                        604</a>
-                </th>
-                <td>2002
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket F.jpg" alt="Socket F"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_F" title="Socket F">Socket F</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_L" class="mw-redirect" title="Socket L">Socket L</a> (<a href="https://en.wikipedia.org/wiki/Socket_1207FX" class="mw-redirect" title="Socket 1207FX">Socket 1207FX</a>)
                 </td>
-                <td>Intel Xeon
-                </td>
-                <td>Servidor
-                </td>
-                <td>PGA
-                </td>
-                <td>604
-                </td>
-                <td>1.27<sup id="cite_ref-intel.com_6-1" class="reference"><a href="#cite_note-intel.com-6"><span
-                                class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>100–266&nbsp;MHz<br>400–1066&nbsp;MT/s
-                </td>
+                <td>2006</td>
                 <td>
+                    AMD Athlon 64 FX<br>
+                    AMD Opteron<br>(Socket L solo soporta Athlon 64 FX)
                 </td>
+                <td>Escritorio<br>Servidor</td>
+                <td>LGA</td>
+                <td>1207</td>
+                <td>1.1<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span class="cite-bracket">[</span>13<span class="cite-bracket">]</span></a></sup></td>
+                <td>Socket L: 1000 MHz en modo CPU único,<br>2000 MHz en modo CPU doble</td>
+                <td class="notes-cell">Reemplaza al Socket 940<br>El Socket L estaba destinado a entusiastas que querían potencia de servidor en un PC de escritorio. Es solo un Socket F renombrado que no necesita RAM especial, y puede haber sido usado solo en la placa base Asus L1N64-SLI WS. Primer socket LGA de AMD.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 754.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_754"
-                        title="Socket 754">Socket
-                        754</a>
-                </th>
-                <td>2003
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/AM2+.jpg" alt="Socket AM2+"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_AM2%2B" title="Socket AM2+">Socket AM2+</a>
                 </td>
-                <td>AMD <a href="https://en.wikipedia.org/wiki/Athlon_64" title="Athlon 64">Athlon 64</a><br>AMD
-                    Sempron<br>AMD <a href="https://en.wikipedia.org/wiki/Turion_64" class="mw-redirect"
-                        title="Turion 64">Turion 64</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>754
-                </td>
-                <td>1.27<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span
-                                class="cite-bracket">[</span>6<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>200–800&nbsp;MHz
-                </td>
+                <td>2007</td>
                 <td>
-                    En esta generación de AMD fue cuando adaptaron la tecnología IHS (Integrated Heat Spreader) para proteger el chip y mejorar la disipación del calor.
+                    AMD Athlon 64<br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon_X2" class="mw-redirect" title="Athlon X2">Athlon X2</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/AMD_Phenom" title="AMD Phenom">Phenom</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Phenom_II" title="Phenom II">Phenom II</a>
                 </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>940</td>
+                <td>1.27<sup id="cite_ref-amd.com_11-2" class="reference"><a href="#cite_note-amd.com-11"><span class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup></td>
+                <td>200–2600 MHz</td>
+                <td class="notes-cell">Planos de alimentación separados<br>Reemplaza al Socket AM2<br>CPUs empaquetadas AM2+ pueden funcionar en Socket AM2<br>CPUs empaquetadas AM2 pueden funcionar en Socket AM2+. Introdujo HyperTransport 3.0.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 940.png" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_940"
-                        title="Socket 940">Socket
-                        940</a>
-                </th>
-                <td>2003
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket P.jpg" alt="Socket P"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_P" title="Socket P">Socket P</a>
                 </td>
-                <td>AMD <a href="https://en.wikipedia.org/wiki/Opteron" title="Opteron">Opteron</a><br>AMD <a
-                        href="https://en.wikipedia.org/wiki/Athlon_64_FX" class="mw-redirect"
-                        title="Athlon 64 FX">Athlon 64 FX</a>
-                </td>
-                <td>Escritorio<br>Servidor
-                </td>
-                <td>PGA
-                </td>
-                <td>940
-                </td>
-                <td>1.27<sup id="cite_ref-amd.com2_9-0" class="reference"><a href="#cite_note-amd.com2-9"><span
-                                class="cite-bracket">[</span>7<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>200–1000&nbsp;MHz
-                </td>
+                <td>2007</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Core_2" class="mw-redirect" title="Core 2">Core 2</a>
                 </td>
+                <td>Portátil</td>
+                <td>PGA</td>
+                <td>478</td>
+                <td>?</td>
+                <td>133–266 MHz<br>533–1066 MT/s</td>
+                <td class="notes-cell">Reemplaza al Socket M. Utilizado para procesadores Core 2 móviles.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 479.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_479"
-                        title="Socket 479">Socket
-                        479</a>
-                </th>
-                <td>2003
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 1366.jpg" alt="LGA 1366"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1366" title="LGA 1366">LGA 1366</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_B" class="mw-redirect" title="Socket B">Socket B</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Pentium_M" title="Pentium M">Pentium M</a><br>Intel <a
-                        href="https://en.wikipedia.org/wiki/Celeron_M" class="mw-redirect" title="Celeron M">Celeron
-                        M</a>
-                </td>
-                <td>Portátil
-                </td>
-                <td>PGA
-                </td>
-                <td>479<sup id="cite_ref-479note_10-0" class="reference"><a href="#cite_note-479note-10"><span
-                                class="cite-bracket">[</span>8<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>?
-                </td>
-                <td>100–133&nbsp;MHz<br>400–533&nbsp;MT/s
-                </td>
+                <td>2008</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Core_i7" class="mw-redirect" title="Core i7">Core i7</a> (serie 900)<br>
+                    Intel Xeon (series 35xx, 36xx, 55xx, 56xx)
                 </td>
+                <td>Escritorio<br>Servidor</td>
+                <td>LGA</td>
+                <td>1366</td>
+                <td>?</td>
+                <td>4.8–6.4 GT/s</td>
+                <td class="notes-cell">Reemplaza al Socket J (LGA 771) en el nivel básico. Introdujo el bus QPI y triple canal de memoria.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 939.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_939"
-                        title="Socket 939">Socket
-                        939</a>
-                </th>
-                <td>2004
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/AM3.jpg" alt="Socket AM3"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_AM3" title="Socket AM3">Socket AM3</a>
                 </td>
-                <td>AMD Athlon 64<br>AMD Athlon 64 FX<br>AMD <a href="https://en.wikipedia.org/wiki/Athlon_64_X2"
-                        title="Athlon 64 X2">Athlon 64
-                        X2</a><br>AMD Opteron
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>939
-                </td>
-                <td>1.27<sup id="cite_ref-amd.com_11-0" class="reference"><a href="#cite_note-amd.com-11"><span
-                                class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>200–1000&nbsp;MHz
-                </td>
-                <td>Soporte de Athlon 64 FX a 1&nbsp;GHz<br>Soporte de Opteron limitado solo a la serie 100
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 775.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_775"
-                        title="LGA 775">LGA 775</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_T"
-                        class="mw-redirect" title="Socket T">Socket T</a>
-                </th>
-                <td>2004
-                </td>
-                <td>Intel Pentium 4<br>Intel <a href="https://en.wikipedia.org/wiki/Pentium_D" title="Pentium D">Pentium
-                        D</a><br>Intel
-                    Celeron<br>Intel
-                    <a href="https://en.wikipedia.org/wiki/Celeron_D" class="mw-redirect" title="Celeron D">Celeron
-                        D</a><br>Intel <a href="https://en.wikipedia.org/wiki/Pentium_Extreme_Edition"
-                        class="mw-redirect" title="Pentium Extreme Edition">Pentium
-                        XE</a><br>Intel <a href="https://en.wikipedia.org/wiki/Core_2_Duo" class="mw-redirect"
-                        title="Core 2 Duo">Core 2
-                        Duo</a><br>Intel <a href="https://en.wikipedia.org/wiki/Core_2_Quad" class="mw-redirect"
-                        title="Core 2 Quad">Core 2
-                        Quad</a><br>Intel Xeon
-                </td>
-                <td>Escritorio
-                </td>
-                <td><a href="https://en.wikipedia.org/wiki/Land_grid_array" title="Land grid array">LGA</a>
-                </td>
-                <td>775
-                </td>
-                <td>1.09 x 1.17<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span
-                                class="cite-bracket">[</span>10<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>1600&nbsp;MHz
-                </td>
-                <td>Puede aceptar CPU LGA 771 con una ligera modificación y uso de un adaptador
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket M.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_M"
-                        title="Socket M">Socket M</a>
-                </th>
-                <td>2006
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Core_Solo" class="mw-redirect" title="Core Solo">Core
-                        Solo</a><br>Intel <a href="https://en.wikipedia.org/wiki/Core_Duo" class="mw-redirect"
-                        title="Core Duo">Core Duo</a><br>Intel Dual-Core
-                    Xeon<br>Intel
-                    Core 2 Duo
-                </td>
-                <td>Portátil
-                </td>
-                <td>PGA
-                </td>
-                <td>478
-                </td>
-                <td>?
-                </td>
-                <td>133–166&nbsp;MHz<br>533–667&nbsp;MT/s
-                </td>
-                <td>Reemplaza al Socket 479
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 771.png" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_771"
-                        title="LGA 771">LGA 771</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_J"
-                        class="mw-redirect" title="Socket J">Socket J</a>
-                </th>
-                <td>2006
-                </td>
-                <td>Intel Xeon
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>771
-                </td>
-                <td>1.09 x 1.17<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span
-                                class="cite-bracket">[</span>11<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>1600&nbsp;MHz
-                </td>
-                <td>Ver LGA 775/Socket T arriba
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket S1.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_S1"
-                        title="Socket S1">Socket S1</a>
-                </th>
-                <td>2006
-                </td>
-                <td>AMD <a href="https://en.wikipedia.org/wiki/Turion_64_X2" class="mw-redirect"
-                        title="Turion 64 X2">Turion 64 X2</a>
-                </td>
-                <td>Portátil
-                </td>
-                <td>PGA
-                </td>
-                <td>638
-                </td>
-                <td>1.27<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span
-                                class="cite-bracket">[</span>12<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>200–800&nbsp;MHz
-                </td>
+                <td>2009</td>
                 <td>
+                    AMD Phenom II<br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon_II" title="Athlon II">Athlon II</a><br>
+                    AMD Sempron<br>
+                    AMD Opteron (serie 1300)
                 </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>941<sup id="cite_ref-941note_16-0" class="reference"><a href="#cite_note-941note-16"><span class="cite-bracket">[</span>14<span class="cite-bracket">]</span></a></sup> o 940<sup id="cite_ref-940note_17-0" class="reference"><a href="#cite_note-940note-17"><span class="cite-bracket">[</span>15<span class="cite-bracket">]</span></a></sup></td>
+                <td>1.27<sup id="cite_ref-amd.com_11-3" class="reference"><a href="#cite_note-amd.com-11"><span class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup></td>
+                <td>200–3200 MHz</td>
+                <td class="notes-cell">Planos de alimentación separados<br>Reemplaza al Socket AM2+<br>CPUs empaquetadas AM3 pueden funcionar en Socket AM2/AM2+<br>Solo Sempron 140. Introdujo soporte para memoria DDR3.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket AM2.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_AM2"
-                        title="Socket AM2">Socket
-                        AM2</a>
-                </th>
-                <td>2006
-                </td>
-                <td>AMD Athlon 64<br>AMD Athlon 64 X2
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>940
-                </td>
-                <td>1.27<sup id="cite_ref-amd.com_11-1" class="reference"><a href="#cite_note-amd.com-11"><span
-                                class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>200–1000&nbsp;MHz
-                </td>
-                <td>Reemplaza al Socket 754 y Socket 939
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket F.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_F"
-                        title="Socket F">Socket
-                        F</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_L" class="mw-redirect"
-                        title="Socket L">Socket L</a> (<a href="https://en.wikipedia.org/wiki/Socket_1207FX"
-                        class="mw-redirect" title="Socket 1207FX">Socket 1207FX</a>)
-                </th>
-                <td>2006
-                </td>
-                <td>AMD Athlon 64 FX<br>AMD Opteron<br>(Socket L solo soporta Athlon 64 FX)
-                </td>
-                <td>Escritorio<br>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>1207
-                </td>
-                <td>1.1<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span
-                                class="cite-bracket">[</span>13<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>Socket L: 1000&nbsp;MHz en modo CPU único,<br>2000&nbsp;MHz en modo CPU doble
-                </td>
-                <td>Reemplaza al Socket 940<br>El Socket L estaba destinado a entusiastas que querían potencia de servidor en un PC de escritorio. Es solo un Socket F renombrado que no necesita RAM especial, y puede haber sido usado solo en la placa base Asus L1N64-SLI WS.
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/AM2+.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_AM2%2B"
-                        title="Socket AM2+">Socket
-                        AM2+</a>
-                </th>
-                <td>2007
-                </td>
-                <td>AMD Athlon 64<br>AMD <a href="https://en.wikipedia.org/wiki/Athlon_X2" class="mw-redirect"
-                        title="Athlon X2">Athlon
-                        X2</a><br>AMD <a href="https://en.wikipedia.org/wiki/AMD_Phenom"
-                        title="AMD Phenom">Phenom</a><br>AMD <a href="https://en.wikipedia.org/wiki/Phenom_II"
-                        title="Phenom II">Phenom II</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>940
-                </td>
-                <td>1.27<sup id="cite_ref-amd.com_11-2" class="reference"><a href="#cite_note-amd.com-11"><span
-                                class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>200–2600&nbsp;MHz
-                </td>
-                <td>Planos de alimentación separados<br>Reemplaza al Socket AM2<br>CPUs empaquetadas AM2+ pueden funcionar en Socket AM2<br>CPUs empaquetadas AM2 pueden funcionar en Socket AM2+
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket P.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/Socket_P"
-                        title="Socket P">Socket P</a>
-                </th>
-                <td>2007
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Core_2" class="mw-redirect" title="Core 2">Core 2</a>
-                </td>
-                <td>Portátil
-                </td>
-                <td>PGA
-                </td>
-                <td>478
-                </td>
-                <td>?
-                </td>
-                <td>133–266&nbsp;MHz<br>533–1066&nbsp;MT/s
-                </td>
-                <td>Reemplaza al Socket M
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 1366.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1366"
-                        title="LGA 1366">LGA
-                        1366</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_B" class="mw-redirect"
-                        title="Socket B">Socket B</a>
-                </th>
-                <td>2008
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Core_i7" class="mw-redirect" title="Core i7">Core
-                        i7</a> (serie 900)<br>Intel
-                    Xeon
-                    (series 35xx, 36xx, 55xx, 56xx)
-                </td>
-                <td>Escritorio<br>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>1366
-                </td>
-                <td>?
-                </td>
-                <td>4.8–6.4&nbsp;GT/s
-                </td>
-                <td>Reemplaza al Socket J (LGA 771) en el nivel básico.
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/AM3.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_AM3"
-                        title="Socket AM3">Socket
-                        AM3</a>
-                </th>
-                <td>2009
-                </td>
-                <td>AMD Phenom II<br>AMD <a href="https://en.wikipedia.org/wiki/Athlon_II" title="Athlon II">Athlon
-                        II</a><br>AMD Sempron<br>AMD
-                    Opteron
-                    (serie 1300)
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>941<sup id="cite_ref-941note_16-0" class="reference"><a href="#cite_note-941note-16"><span
-                                class="cite-bracket">[</span>14<span class="cite-bracket">]</span></a></sup> o 940<sup
-                        id="cite_ref-940note_17-0" class="reference"><a href="#cite_note-940note-17"><span
-                                class="cite-bracket">[</span>15<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>1.27<sup id="cite_ref-amd.com_11-3" class="reference"><a href="#cite_note-amd.com-11"><span
-                                class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>200–3200&nbsp;MHz
-                </td>
-                <td>Planos de alimentación separados<br>Reemplaza al Socket AM2+<br>CPUs empaquetadas AM3 pueden funcionar en Socket AM2/AM2+<br>Solo Sempron 140
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket G1.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/RPGA_988A"
-                        class="mw-redirect" title="RPGA 988A">rPGA 988A</a>/<br><a
-                        href="https://en.wikipedia.org/wiki/Socket_G1" title="Socket G1">Socket G1</a>
-                </th>
-                <td>2009
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Clarksfield_(microprocessor)"
-                        title="Clarksfield (microprocessor)">Clarksfield</a><br>Intel <a
-                        href="https://en.wikipedia.org/wiki/Arrandale" title="Arrandale">Arrandale</a>
-                </td>
-                <td>Portátil
-                </td>
-                <td><a href="https://en.wikipedia.org/wiki/Pin_grid_array#rPGA" title="Pin grid array">rPGA</a>
-                </td>
-                <td>988
-                </td>
-                <td>1
-                </td>
-                <td>2.5&nbsp;GT/s
-                </td>
-                <td>Reemplaza al Socket P
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 1156.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1156"
-                        title="LGA 1156">LGA
-                        1156</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_H" class="mw-redirect"
-                        title="Socket H">Socket H</a>
-                </th>
-                <td>2009
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Nehalem_(microarchitecture)"
-                        title="Nehalem (microarchitecture)">Nehalem</a>
-                    (1ª
-                    gen)<br>Intel <a href="https://en.wikipedia.org/wiki/Westmere_(microarchitecture)"
-                        title="Westmere (microarchitecture)">Westmere</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>1156
-                </td>
-                <td>?
-                </td>
-                <td>2.5&nbsp;GT/s
-                </td>
-                <td>El bus <a href="https://en.wikipedia.org/wiki/Direct_Media_Interface"
-                        title="Direct Media Interface">DMI</a> es una interfaz <a href="https://en.wikipedia.org/wiki/PCI_Express" title="PCI Express">PCIe</a> x4 v1.1 (quizás modificada)
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket G34.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_G34"
-                        title="Socket G34">Socket
-                        G34</a>
-                </th>
-                <td>2010
-                </td>
-                <td>AMD Opteron (serie 6000)
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>1974
-                </td>
-                <td>?
-                </td>
-                <td>200–3200&nbsp;MHz
-                </td>
-                <td>Reemplaza al Socket F
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket C32.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_C32"
-                        title="Socket C32">Socket
-                        C32</a>
-                </th>
-                <td>2010
-                </td>
-                <td>AMD Opteron (serie 4000)
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>1207
-                </td>
-                <td>?
-                </td>
-                <td>200–3200&nbsp;MHz
-                </td>
-                <td>Reemplaza al Socket F, Socket AM3
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 1567.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1567"
-                        title="LGA 1567">LGA
-                        1567</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_LS" class="mw-redirect"
-                        title="Socket LS">Socket LS</a>
-                </th>
-                <td>2010
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Beckton_(microprocessor)#Beckton" class="mw-redirect"
-                        title="Beckton (microprocessor)">Xeon serie 6500/7500</a>
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>1567
-                </td>
-                <td>?
-                </td>
-                <td>4.8–6.4&nbsp;GT/s
-                </td>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket G1.jpg" alt="Socket G1"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/RPGA_988A" class="mw-redirect" title="RPGA 988A">rPGA 988A</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_G1" title="Socket G1">Socket G1</a>
+                </td>
+                <td>2009</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Clarksfield_(microprocessor)" title="Clarksfield (microprocessor)">Clarksfield</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Arrandale" title="Arrandale">Arrandale</a>
                 </td>
+                <td>Portátil</td>
+                <td><a href="https://en.wikipedia.org/wiki/Pin_grid_array#rPGA" title="Pin grid array">rPGA</a></td>
+                <td>988</td>
+                <td>1</td>
+                <td>2.5 GT/s</td>
+                <td class="notes-cell">Reemplaza al Socket P. Primer socket móvil para la arquitectura Nehalem.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 1155.jpeg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1155"
-                        title="LGA 1155">LGA
-                        1155</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_H2" class="mw-redirect"
-                        title="Socket H2">Socket H2</a>
-                </th>
-                <td>2011/T1<br>2011.01.09
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 1156.jpg" alt="LGA 1156"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1156" title="LGA 1156">LGA 1156</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_H" class="mw-redirect" title="Socket H">Socket H</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Sandy_Bridge_(microarchitecture)" class="mw-redirect"
-                        title="Sandy Bridge (microarchitecture)">Sandy Bridge</a> (2ª gen)<br>Intel <a
-                        href="https://en.wikipedia.org/wiki/Ivy_Bridge_(microarchitecture)"
-                        title="Ivy Bridge (microarchitecture)">Ivy
-                        Bridge</a> (3ª gen)
+                <td>2009</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Nehalem_(microarchitecture)" title="Nehalem (microarchitecture)">Nehalem</a> (1ª gen)<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Westmere_(microarchitecture)" title="Westmere (microarchitecture)">Westmere</a>
                 </td>
-                <td>Escritorio
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>1156</td>
+                <td>?</td>
+                <td>2.5 GT/s</td>
+                <td class="notes-cell">El bus <a href="https://en.wikipedia.org/wiki/Direct_Media_Interface" title="Direct Media Interface">DMI</a> es una interfaz <a href="https://en.wikipedia.org/wiki/PCI_Express" title="PCI Express">PCIe</a> x4 v1.1 (quizás modificada). Primer socket de la serie 115x para mainstream.</td>
+            </tr>
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket G34.jpg" alt="Socket G34"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_G34" title="Socket G34">Socket G34</a>
                 </td>
-                <td>LGA
+                <td>2010</td>
+                <td>
+                    AMD Opteron (serie 6000)
                 </td>
-                <td>1155
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>1974</td>
+                <td>?</td>
+                <td>200–3200 MHz</td>
+                <td class="notes-cell">Reemplaza al Socket F. Diseñado para servidores de múltiples sockets.</td>
+            </tr>
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket C32.jpg" alt="Socket C32"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_C32" title="Socket C32">Socket C32</a>
                 </td>
-                <td>?
+                <td>2010</td>
+                <td>
+                    AMD Opteron (serie 4000)
                 </td>
-                <td>5.7&nbsp;GT/s
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>1207</td>
+                <td>?</td>
+                <td>200–3200 MHz</td>
+                <td class="notes-cell">Reemplaza al Socket F, Socket AM3. Versión para servidores de un solo socket.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 1567.jpg" alt="LGA 1567"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1567" title="LGA 1567">LGA 1567</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_LS" class="mw-redirect" title="Socket LS">Socket LS</a>
                 </td>
-                <td>Usado para procesadores Intel de 2ª generación y 3ª generación.
+                <td>2010</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Beckton_(microprocessor)#Beckton" class="mw-redirect" title="Beckton (microprocessor)">Xeon serie 6500/7500</a>
+                </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>1567</td>
+                <td>?</td>
+                <td>4.8–6.4 GT/s</td>
+                <td class="notes-cell">Socket para servidores de gama alta con soporte para grandes cantidades de memoria.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 1155.jpeg" alt="LGA 1155"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1155" title="LGA 1155">LGA 1155</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_H2" class="mw-redirect" title="Socket H2">Socket H2</a>
+                </td>
+                <td>2011/T1<br>2011.01.09</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Sandy_Bridge_(microarchitecture)" class="mw-redirect" title="Sandy Bridge (microarchitecture)">Sandy Bridge</a> (2ª gen)<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Ivy_Bridge_(microarchitecture)" title="Ivy Bridge (microarchitecture)">Ivy Bridge</a> (3ª gen)
+                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>1155</td>
+                <td>?</td>
+                <td>5.7 GT/s</td>
+                <td class="notes-cell">Usado para procesadores Intel de 2ª generación y 3ª generación.
                     <p>Sandy Bridge soporta 20 líneas PCIe 2.0.<br>Ivy Bridge soporta 40 líneas PCIe 3.0.<br>Socket Intel general.
                     </p>
                 </td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 2011.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_2011"
-                        title="LGA 2011">LGA
-                        2011</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_R" class="mw-redirect"
-                        title="Socket R">Socket R</a>
-                </th>
-                <td>2011/T3<br>2011.11.14
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 2011.jpg" alt="LGA 2011"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_2011" title="LGA 2011">LGA 2011</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_R" class="mw-redirect" title="Socket R">Socket R</a>
                 </td>
-                <td>Intel Core i7 3xxx <a href="https://en.wikipedia.org/wiki/Sandy_Bridge-E" class="mw-redirect"
-                        title="Sandy Bridge-E">Sandy
-                        Bridge-E</a><br>Intel Core i7 4xxx <a href="https://en.wikipedia.org/wiki/Ivy_Bridge-E"
-                        class="mw-redirect" title="Ivy Bridge-E">Ivy
-                        Bridge-E</a><br>Intel Xeon E5 2xxx/4xxx (Sandy Bridge EP) (2/4S)<br>Intel Xeon E5-2xxx/4xxx v2
-                    (Ivy Bridge
-                    EP) (2/4S)
-                </td>
-                <td>Escritorio<br>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>2011
-                </td>
-                <td>?
-                </td>
-                <td>4.8–6.4&nbsp;GT/s
-                </td>
-                <td>Tanto Sandy Bridge-E/EP como Ivy Bridge-E/EP soportan 40 líneas PCIe 3.0.<br>Usar el socket 2011 enfocado en Xeon también proporciona 4 canales de memoria.
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket G2.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/RPGA_988B"
-                        class="mw-redirect" title="RPGA 988B">rPGA 988B</a>/<br><a
-                        href="https://en.wikipedia.org/wiki/Socket_G2" title="Socket G2">Socket G2</a>
-                </th>
-                <td>2011
-                </td>
-                <td>Intel Core i7<br>Intel <a href="https://en.wikipedia.org/wiki/Core_i5" class="mw-redirect"
-                        title="Core i5">Core
-                        i5</a><br>Intel <a href="https://en.wikipedia.org/wiki/Core_i3" class="mw-redirect"
-                        title="Core i3">Core
-                        i3</a><br>(series 2000, 3000)
-                </td>
-                <td>Portátil
-                </td>
-                <td>rPGA
-                </td>
-                <td>988
-                </td>
-                <td>1
-                </td>
-                <td>2.5&nbsp;GT/s, 4.8&nbsp;GT/s
-                </td>
+                <td>2011/T3<br>2011.11.14</td>
                 <td>
+                    Intel Core i7 3xxx <a href="https://en.wikipedia.org/wiki/Sandy_Bridge-E" class="mw-redirect" title="Sandy Bridge-E">Sandy Bridge-E</a><br>
+                    Intel Core i7 4xxx <a href="https://en.wikipedia.org/wiki/Ivy_Bridge-E" class="mw-redirect" title="Ivy Bridge-E">Ivy Bridge-E</a><br>
+                    Intel Xeon E5 2xxx/4xxx (Sandy Bridge EP) (2/4S)<br>
+                    Intel Xeon E5-2xxx/4xxx v2 (Ivy Bridge EP) (2/4S)
                 </td>
+                <td>Escritorio<br>Servidor</td>
+                <td>LGA</td>
+                <td>2011</td>
+                <td>?</td>
+                <td>4.8–6.4 GT/s</td>
+                <td class="notes-cell">Tanto Sandy Bridge-E/EP como Ivy Bridge-E/EP soportan 40 líneas PCIe 3.0.<br>Usar el socket 2011 enfocado en Xeon también proporciona 4 canales de memoria. Socket para entusiastas y servidores.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket FM1.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_FM1"
-                        title="Socket FM1">Socket
-                        FM1</a>
-                </th>
-                <td>2011
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket G2.jpg" alt="Socket G2"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/RPGA_988B" class="mw-redirect" title="RPGA 988B">rPGA 988B</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_G2" title="Socket G2">Socket G2</a>
                 </td>
-                <td>AMD <a
-                        href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#K10_architecture_(2011):_Llano"
-                        class="mw-redirect" title="AMD Accelerated Processing Unit">Procesadores Llano</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>905
-                </td>
-                <td>1.27
-                </td>
-                <td>5.2&nbsp;GT/s
-                </td>
-                <td>Usado para APU de 1ª generación
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket FS1.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_FS1"
-                        title="Socket FS1">Socket
-                        FS1</a>
-                </th>
-                <td>2011
-                </td>
-                <td>AMD Procesadores Llano
-                </td>
-                <td>Portátil
-                </td>
-                <td>PGA
-                </td>
-                <td>722
-                </td>
-                <td>1.27
-                </td>
-                <td>3.2&nbsp;GT/s
-                </td>
-                <td>Usado para APU móviles de 1ª generación
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/AM3+.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_AM3%2B"
-                        title="Socket AM3+">Socket
-                        AM3+</a>
-                </th>
-                <td>2011
-                </td>
-                <td>AMD <a href="https://en.wikipedia.org/wiki/Bulldozer_(processor)#2nd_Generation_Piledriver_core"
-                        class="mw-redirect" title="Bulldozer (processor)">FX Vishera</a><sup
-                        class="noprint Inline-Template" style="white-space:nowrap;">[<i><a
-                                href="https://en.wikipedia.org/wiki/MOS:BROKENSECTIONLINKS" class="mw-redirect"
-                                title="MOS:BROKENSECTIONLINKS"><span
-                                    title="The anchor (2nd Generation Piledriver core) has been deleted. (2024-09-19)">enlace
-                                    roto</span></a></i>]</sup><br>AMD <a
-                        href="https://en.wikipedia.org/wiki/Bulldozer_(microarchitecture)"
-                        title="Bulldozer (microarchitecture)">FX Zambezi</a><br>AMD Phenom II<br>AMD <a
-                        href="https://en.wikipedia.org/wiki/Athlon_II" title="Athlon II">Athlon II</a><br>AMD Sempron
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>942 (CPU 71pin)
-                </td>
-                <td>1.27
-                </td>
-                <td>3.2&nbsp;GT/s
-                </td>
+                <td>2011</td>
                 <td>
+                    Intel Core i7<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Core_i5" class="mw-redirect" title="Core i5">Core i5</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Core_i3" class="mw-redirect" title="Core i3">Core i3</a><br>(series 2000, 3000)
                 </td>
+                <td>Portátil</td>
+                <td>rPGA</td>
+                <td>988</td>
+                <td>1</td>
+                <td>2.5 GT/s, 4.8 GT/s</td>
+                <td class="notes-cell">Socket móvil para procesadores Sandy Bridge e Ivy Bridge.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 1356.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1356"
-                        title="LGA 1356">LGA
-                        1356</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_B2" class="mw-redirect"
-                        title="Socket B2">Socket B2</a>
-                </th>
-                <td>2012
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket FM1.jpg" alt="Socket FM1"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_FM1" title="Socket FM1">Socket FM1</a>
                 </td>
-                <td>Intel Xeon (series E5 1400 y 2400)
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>1356
-                </td>
-                <td>?
-                </td>
-                <td>3.2–4.0&nbsp;GT/s
-                </td>
+                <td>2011</td>
                 <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#K10_architecture_(2011):_Llano" class="mw-redirect" title="AMD Accelerated Processing Unit">Procesadores Llano</a>
                 </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>905</td>
+                <td>1.27</td>
+                <td>5.2 GT/s</td>
+                <td class="notes-cell">Usado para APU de 1ª generación. Primer socket específico para APUs de AMD.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket FM2.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_FM2"
-                        title="Socket FM2">Socket
-                        FM2</a>
-                </th>
-                <td>2012
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket FS1.jpg" alt="Socket FS1"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_FS1" title="Socket FS1">Socket FS1</a>
                 </td>
-                <td>AMD <a href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Trinity"
-                        class="mw-redirect" title="AMD Accelerated Processing Unit">Procesadores Trinity</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>904
-                </td>
-                <td>1.27
-                </td>
-                <td>?
-                </td>
-                <td>Usado para APU de 2ª generación
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 1150.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1150"
-                        title="LGA 1150">LGA
-                        1150</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_H3" class="mw-redirect"
-                        title="Socket H3">Socket H3</a>
-                </th>
-                <td>2013
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Haswell_(microarchitecture)"
-                        title="Haswell (microarchitecture)">Haswell</a>
-                    (4ª
-                    gen)<br>Intel <a href="https://en.wikipedia.org/wiki/Haswell_(microarchitecture)#REFRESH"
-                        title="Haswell (microarchitecture)">Haswell
-                        Refresh</a><br>Intel <a href="https://en.wikipedia.org/wiki/Broadwell_(microarchitecture)"
-                        title="Broadwell (microarchitecture)">Broadwell</a> (5ª gen)
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>1150
-                </td>
-                <td>?
-                </td>
-                <td>?
-                </td>
-                <td>Usado para procesadores Intel de 4ª generación (Haswell/Haswell Refresh) y el puñado de procesadores Intel de 5ª generación
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket G3.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/RPGA_946B/947"
-                        class="mw-redirect" title="RPGA 946B/947">rPGA 946B/947</a>/<br><a
-                        href="https://en.wikipedia.org/wiki/Intel_Socket_G3" title="Intel Socket G3">Socket
-                        G3</a>
-                </th>
-                <td>2013
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Haswell_(microarchitecture)"
-                        title="Haswell (microarchitecture)">Haswell</a>
-                </td>
-                <td>Portátil
-                </td>
-                <td>rPGA
-                </td>
-                <td>946
-                </td>
-                <td>1
-                </td>
-                <td>5.0 GT/s
-                </td>
+                <td>2011</td>
                 <td>
+                    AMD Procesadores Llano
                 </td>
+                <td>Portátil</td>
+                <td>PGA</td>
+                <td>722</td>
+                <td>1.27</td>
+                <td>3.2 GT/s</td>
+                <td class="notes-cell">Usado para APU móviles de 1ª generación.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket FM2+.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_FM2%2B"
-                        title="Socket FM2+">Socket
-                        FM2+</a>
-                </th>
-                <td>2014
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/AM3+.jpg" alt="Socket AM3+"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_AM3%2B" title="Socket AM3+">Socket AM3+</a>
                 </td>
-                <td>AMD <a
-                        href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Steamroller_architecture_(2014):_Kaveri"
-                        class="mw-redirect" title="AMD Accelerated Processing Unit">Kaveri</a><br>AMD <a
-                        href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Steamroller_architecture_(Q2–Q3_2015):_Godavari"
-                        class="mw-redirect" title="AMD Accelerated Processing Unit">Godavari</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>906
-                </td>
-                <td>1.27
-                </td>
-                <td>?
-                </td>
-                <td>Compatible con <a href="https://en.wikipedia.org/wiki/AMD_APU" title="AMD APU">APU AMD</a> tales como
-                    "<a href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Richland"
-                        class="mw-redirect" title="AMD Accelerated Processing Unit">Richland" y "Trinity</a>"
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket AM1.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_AM1"
-                        title="Socket AM1">Socket
-                        AM1</a>
-                </th>
-                <td>2014
-                </td>
-                <td>AMD Athlon<br>AMD Sempron
-                </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>721
-                </td>
-                <td>1.27
-                </td>
-                <td>?
-                </td>
-                <td>Compatible con APU AMD tales como "<a
-                        href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Kabini" class="mw-redirect"
-                        title="AMD Accelerated Processing Unit">Kabini</a>"
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 2011 v3.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_2011-v3"
-                        class="mw-redirect" title="LGA 2011-v3">LGA 2011-v3</a>
-                </th>
-                <td>2014<br>(Agosto y Septiembre)
-                </td>
-                <td><a href="https://en.wikipedia.org/wiki/Haswell-E" class="mw-redirect"
-                        title="Haswell-E">Haswell-E</a><br><a href="https://en.wikipedia.org/wiki/Haswell-EP"
-                        class="mw-redirect" title="Haswell-EP">Haswell-EP</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>2017
-                </td>
-                <td>?
-                </td>
-                <td>Hasta 68 GB/seg.<br>Depende de la velocidad DDR4 y el número de canales.
-                </td>
-                <td>Hasta 40 líneas PCIe 3.0.<br>Hasta 4 canales de memoria.
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/Socket 1151.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1151"
-                        title="LGA 1151">LGA
-                        1151</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_H4" class="mw-redirect"
-                        title="Socket H4">Socket H4</a>
-                </th>
-                <td>2015
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Skylake_(microarchitecture)"
-                        title="Skylake (microarchitecture)">Skylake</a>
-                    (6ª
-                    gen)<br>Intel <a href="https://en.wikipedia.org/wiki/Kaby_Lake_(microarchitecture)"
-                        class="mw-redirect" title="Kaby Lake (microarchitecture)">Kaby Lake</a> (7ª gen)<br>Intel <a
-                        href="https://en.wikipedia.org/wiki/Coffee_Lake_(microarchitecture)" class="mw-redirect"
-                        title="Coffee Lake (microarchitecture)">Coffee Lake</a> (8ª gen)<br>Intel <a
-                        href="https://en.wikipedia.org/wiki/Coffee_Lake" title="Coffee Lake">Coffee Lake Refresh</a>
-                    (9ª gen)
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>1151
-                </td>
-                <td>?
-                </td>
-                <td>5 GT/s - 8 GT/s
-                </td>
-                <td>Usado para procesadores Intel de 6ª generación (Skylake), 7ª generación (Kaby Lake), 8ª generación (Coffee Lake) y 9ª generación (Coffee Lake Refresh)
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 3647.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_3647"
-                        title="LGA 3647">LGA 3647</a>
-                </th>
-                <td>2016
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Xeon_Phi" title="Xeon Phi">Xeon Phi</a><br>Intel
-                    Skylake-SP
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>3647
-                </td>
-                <td>?
-                </td>
-                <td>?
-                </td>
-                <td>Usado para procesadores Intel Xeon Phi x200 y Xeon Escalables
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket AM4.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_AM4"
-                        title="Socket AM4">Socket
-                        AM4</a>
-                </th>
-                <td>2016
-                </td>
+                <td>2011</td>
                 <td>
-                    <p>AMD Athlon <a
-                            href="https://en.wikipedia.org/wiki/List_of_AMD_Athlon_processors#&quot;Bristol_Ridge&quot;_(2016)"
-                            title="List of AMD Athlon processors">Bristol Ridge</a>
-                        <br>
-                        AMD Athlon <a
-                            href="https://en.wikipedia.org/wiki/List_of_AMD_Athlon_processors#&quot;Raven_Ridge&quot;,_14_nm"
-                            title="List of AMD Athlon processors">Raven Ridge 14nm</a>
-                        <br>
-                        AMD Athlon <a
-                            href="https://en.wikipedia.org/wiki/List_of_AMD_Athlon_processors#&quot;Picasso&quot;,_12_nm"
-                            title="List of AMD Athlon processors">Picasso 12nm</a>
-                        <br>
-                        AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_1000_series"
-                            title="List of AMD Ryzen processors">serie 1000</a>
-                        <br>
-                        AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_2000_series"
-                            title="List of AMD Ryzen processors">serie 2000</a>
-                        <br>
-                        AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_3000_series"
-                            title="List of AMD Ryzen processors">serie 3000</a>
-                        <br>
-                        AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_4000_series"
-                            title="List of AMD Ryzen processors">serie 4000</a>
-                        <br>
-                        AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_5000_series"
-                            title="List of AMD Ryzen processors">serie 5000</a>
+                    AMD <a href="https://en.wikipedia.org/wiki/Bulldozer_(processor)#2nd_Generation_Piledriver_core" class="mw-redirect" title="Bulldozer (processor)">FX Vishera</a><sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="https://en.wikipedia.org/wiki/MOS:BROKENSECTIONLINKS" class="mw-redirect" title="MOS:BROKENSECTIONLINKS"><span title="The anchor (2nd Generation Piledriver core) has been deleted. (2024-09-19)">enlace roto</span></a></i>]</sup><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Bulldozer_(microarchitecture)" title="Bulldozer (microarchitecture)">FX Zambezi</a><br>
+                    AMD Phenom II<br>
+                    AMD <a href="https://en.wikipedia.org/wiki/Athlon_II" title="Athlon II">Athlon II</a><br>
+                    AMD Sempron
+                </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>942 (CPU 71pin)</td>
+                <td>1.27</td>
+                <td>3.2 GT/s</td>
+                <td class="notes-cell">Diseñado para la arquitectura Bulldozer de AMD, con mejor soporte de energía y refrigeración.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 1356.jpg" alt="LGA 1356"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1356" title="LGA 1356">LGA 1356</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_B2" class="mw-redirect" title="Socket B2">Socket B2</a>
+                </td>
+                <td>2012</td>
+                <td>
+                    Intel Xeon (series E5 1400 y 2400)
+                </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>1356</td>
+                <td>?</td>
+                <td>3.2–4.0 GT/s</td>
+                <td class="notes-cell">Alternativa económica al LGA 2011 para servidores, con triple canal de memoria.</td>
+            </tr>
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket FM2.jpg" alt="Socket FM2"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_FM2" title="Socket FM2">Socket FM2</a>
+                </td>
+                <td>2012</td>
+                <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Trinity" class="mw-redirect" title="AMD Accelerated Processing Unit">Procesadores Trinity</a>
+                </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>904</td>
+                <td>1.27</td>
+                <td>?</td>
+                <td class="notes-cell">Usado para APU de 2ª generación. No compatible con FM1 a pesar de la similitud en nombre.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 1150.jpg" alt="LGA 1150"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1150" title="LGA 1150">LGA 1150</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_H3" class="mw-redirect" title="Socket H3">Socket H3</a>
+                </td>
+                <td>2013</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Haswell_(microarchitecture)" title="Haswell (microarchitecture)">Haswell</a> (4ª gen)<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Haswell_(microarchitecture)#REFRESH" title="Haswell (microarchitecture)">Haswell Refresh</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Broadwell_(microarchitecture)" title="Broadwell (microarchitecture)">Broadwell</a> (5ª gen)
+                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>1150</td>
+                <td>?</td>
+                <td>?</td>
+                <td class="notes-cell">Usado para procesadores Intel de 4ª generación (Haswell/Haswell Refresh) y el puñado de procesadores Intel de 5ª generación.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket G3.jpg" alt="Socket G3"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/RPGA_946B/947" class="mw-redirect" title="RPGA 946B/947">rPGA 946B/947</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Intel_Socket_G3" title="Intel Socket G3">Socket G3</a>
+                </td>
+                <td>2013</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Haswell_(microarchitecture)" title="Haswell (microarchitecture)">Haswell</a>
+                </td>
+                <td>Portátil</td>
+                <td>rPGA</td>
+                <td>946</td>
+                <td>1</td>
+                <td>5.0 GT/s</td>
+                <td class="notes-cell">Socket móvil para procesadores Haswell.</td>
+            </tr>
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket FM2+.jpg" alt="Socket FM2+"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_FM2%2B" title="Socket FM2+">Socket FM2+</a>
+                </td>
+                <td>2014</td>
+                <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Steamroller_architecture_(2014):_Kaveri" class="mw-redirect" title="AMD Accelerated Processing Unit">Kaveri</a><br>
+                    AMD <a href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Steamroller_architecture_(Q2–Q3_2015):_Godavari" class="mw-redirect" title="AMD Accelerated Processing Unit">Godavari</a>
+                </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>906</td>
+                <td>1.27</td>
+                <td>?</td>
+                <td class="notes-cell">Compatible con <a href="https://en.wikipedia.org/wiki/AMD_APU" title="AMD APU">APU AMD</a> tales como "<a href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Richland" class="mw-redirect" title="AMD Accelerated Processing Unit">Richland" y "Trinity</a>". Retrocompatible con FM2.</td>
+            </tr>
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket AM1.jpg" alt="Socket AM1"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_AM1" title="Socket AM1">Socket AM1</a>
+                </td>
+                <td>2014</td>
+                <td>
+                    AMD Athlon<br>
+                    AMD Sempron
+                </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>721</td>
+                <td>1.27</td>
+                <td>?</td>
+                <td class="notes-cell">Compatible con APU AMD tales como "<a href="https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit#Kabini" class="mw-redirect" title="AMD Accelerated Processing Unit">Kabini</a>". Diseñado para sistemas económicos y de bajo consumo.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 2011 v3.jpg" alt="LGA 2011-v3"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_2011-v3" class="mw-redirect" title="LGA 2011-v3">LGA 2011-v3</a>
+                </td>
+                <td>2014<br>(Agosto y Septiembre)</td>
+                <td>
+                    <a href="https://en.wikipedia.org/wiki/Haswell-E" class="mw-redirect" title="Haswell-E">Haswell-E</a><br>
+                    <a href="https://en.wikipedia.org/wiki/Haswell-EP" class="mw-redirect" title="Haswell-EP">Haswell-EP</a>
+                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>2017</td>
+                <td>?</td>
+                <td>Hasta 68 GB/seg.<br>Depende de la velocidad DDR4 y el número de canales.</td>
+                <td class="notes-cell">Hasta 40 líneas PCIe 3.0.<br>Hasta 4 canales de memoria. Introdujo soporte para DDR4.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/Socket 1151.jpg" alt="LGA 1151"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1151" title="LGA 1151">LGA 1151</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_H4" class="mw-redirect" title="Socket H4">Socket H4</a>
+                </td>
+                <td>2015</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Skylake_(microarchitecture)" title="Skylake (microarchitecture)">Skylake</a> (6ª gen)<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Kaby_Lake_(microarchitecture)" class="mw-redirect" title="Kaby Lake (microarchitecture)">Kaby Lake</a> (7ª gen)<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Coffee_Lake_(microarchitecture)" class="mw-redirect" title="Coffee Lake (microarchitecture)">Coffee Lake</a> (8ª gen)<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Coffee_Lake" title="Coffee Lake">Coffee Lake Refresh</a> (9ª gen)
+                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>1151</td>
+                <td>?</td>
+                <td>5 GT/s - 8 GT/s</td>
+                <td class="notes-cell">Usado para procesadores Intel de 6ª generación (Skylake), 7ª generación (Kaby Lake), 8ª generación (Coffee Lake) y 9ª generación (Coffee Lake Refresh). Dos versiones no compatibles entre sí.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 3647.jpg" alt="LGA 3647"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_3647" title="LGA 3647">LGA 3647</a>
+                </td>
+                <td>2016</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Xeon_Phi" title="Xeon Phi">Xeon Phi</a><br>
+                    Intel Skylake-SP
+                </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>3647</td>
+                <td>?</td>
+                <td>?</td>
+                <td class="notes-cell">Usado para procesadores Intel Xeon Phi x200 y Xeon Escalables. Socket de gran tamaño para servidores de alto rendimiento.</td>
+            </tr>
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket AM4.jpg" alt="Socket AM4"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_AM4" title="Socket AM4">Socket AM4</a>
+                </td>
+                <td>2016</td>
+                <td>
+                    <p>AMD Athlon <a href="https://en.wikipedia.org/wiki/List_of_AMD_Athlon_processors#&quot;Bristol_Ridge&quot;_(2016)" title="List of AMD Athlon processors">Bristol Ridge</a>
+                    <br>
+                    AMD Athlon <a href="https://en.wikipedia.org/wiki/List_of_AMD_Athlon_processors#&quot;Raven_Ridge&quot;,_14_nm" title="List of AMD Athlon processors">Raven Ridge 14nm</a>
+                    <br>
+                    AMD Athlon <a href="https://en.wikipedia.org/wiki/List_of_AMD_Athlon_processors#&quot;Picasso&quot;,_12_nm" title="List of AMD Athlon processors">Picasso 12nm</a>
+                    <br>
+                    AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_1000_series" title="List of AMD Ryzen processors">serie 1000</a>
+                    <br>
+                    AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_2000_series" title="List of AMD Ryzen processors">serie 2000</a>
+                    <br>
+                    AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_3000_series" title="List of AMD Ryzen processors">serie 3000</a>
+                    <br>
+                    AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_4000_series" title="List of AMD Ryzen processors">serie 4000</a>
+                    <br>
+                    AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_5000_series" title="List of AMD Ryzen processors">serie 5000</a>
                     </p>
                 </td>
-                <td>Escritorio
-                </td>
-                <td>PGA
-                </td>
-                <td>1331
-                </td>
-                <td>1
-                </td>
-                <td>Depende de la velocidad DDR4
-                </td>
-                <td>Compatible con procesadores AMD <a href="https://en.wikipedia.org/wiki/Ryzen" title="Ryzen">Ryzen</a> 9, Ryzen
-                    7, Ryzen 5 y Ryzen 3 basados en arquitectura Zen
-                </td>
+                <td>Escritorio</td>
+                <td>PGA</td>
+                <td>1331</td>
+                <td>1</td>
+                <td>Depende de la velocidad DDR4</td>
+                <td class="notes-cell">Compatible con procesadores AMD <a href="https://en.wikipedia.org/wiki/Ryzen" title="Ryzen">Ryzen</a> 9, Ryzen 7, Ryzen 5 y Ryzen 3 basados en arquitectura Zen. Primer socket unificado de AMD para CPUs de escritorio que soporta tanto procesadores con gráficos integrados como sin ellos.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket SP3.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_SP3"
-                        title="Socket SP3">Socket
-                        SP3</a>
-                </th>
-                <td>2017
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket SP3.jpg" alt="Socket SP3"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_SP3" title="Socket SP3">Socket SP3</a>
                 </td>
-                <td>AMD Epyc <a href="https://en.wikipedia.org/wiki/Epyc#First_generation_Epyc_(Naples)"
-                        title="Epyc">Naples</a><br> AMD Epyc <a
-                        href="https://en.wikipedia.org/wiki/Epyc#Second_generation_Epyc_(Rome)"
-                        title="Epyc">Rome</a><br> AMD Epyc <a
-                        href="https://en.wikipedia.org/wiki/Epyc#Third_generation_Epyc_(Milan)" title="Epyc">Milan</a>
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>4094
-                </td>
-                <td>?
-                </td>
-                <td>Depende de la velocidad DDR4
-                </td>
-                <td>Compatible con procesadores AMD Epyc
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket TR4.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_TR4"
-                        title="Socket TR4">Socket
-                        TR4</a>/<br>Socket SP3r2
-                </th>
-                <td>2017
-                </td>
-                <td>AMD Ryzen Threadripper (<a
-                        href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Whitehaven_(Threadripper_1000_series,_Zen_based)"
-                        title="List of AMD Ryzen processors">serie 1000</a>)<br>AMD Ryzen Threadripper (<a
-                        href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Colfax_(Threadripper_2000_series,_Zen+_based)"
-                        title="List of AMD Ryzen processors">serie 2000</a>)
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>4094
-                </td>
-                <td>?
-                </td>
-                <td>Depende de la velocidad DDR4
-                </td>
-                <td>Compatible con procesadores AMD Ryzen Threadripper
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 2066.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_2066"
-                        title="LGA 2066">LGA
-                        2066</a>/<br><a href="https://en.wikipedia.org/wiki/Socket_R4" class="mw-redirect"
-                        title="Socket R4">Socket R4</a>
-                </th>
-                <td>2017
-                </td>
-                <td>Intel Skylake-X<br>Intel Kaby Lake-X<br>Intel Cascade Lake-X
-                </td>
-                <td>Escritorio<br>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>2066
-                </td>
-                <td>?
-                </td>
-                <td>?
-                </td>
-                <td>Usado para la serie de procesadores Core-X de Intel de 7ª generación (Skylake-X, Kaby Lake-X y Cascade Lake-X)
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket sTRX4.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_sTRX4"
-                        title="Socket sTRX4">Socket
-                        sTRX4</a>/<br>Socket SP3r3
-                </th>
-                <td>2019
-                </td>
-                <td>AMD Ryzen Threadripper (<a
-                        href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Castle_Peak_(Threadripper_3000_series,_Zen_2_based)"
-                        title="List of AMD Ryzen processors">serie 3000</a>)
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>4094
-                </td>
-                <td>?
-                </td>
-                <td>Depende de la velocidad DDR4
-                </td>
-                <td>Compatible con procesadores AMD Ryzen Threadripper de 3ª generación
-                </td>
-            </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 4189.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_4189"
-                        title="LGA 4189">LGA 4189</a>
-                </th>
-                <td>2020
-                </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Cooper_Lake_(microprocessor)"
-                        title="Cooper Lake (microprocessor)">Cooper
-                        Lake</a><br>Intel <a href="https://en.wikipedia.org/wiki/Ice_Lake_(microprocessor)"
-                        title="Ice Lake (microprocessor)">Ice
-                        Lake-SP</a>
-                </td>
-                <td>Escritorio<br>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>4189<sup id="cite_ref-:0_18-0" class="reference"><a href="#cite_note-:0-18"><span
-                                class="cite-bracket">[</span>16<span class="cite-bracket">]</span></a></sup>
-                </td>
-                <td>0.99<sup id="cite_ref-:0_18-1" class="reference"><a href="#cite_note-:0-18"><span
-                                class="cite-bracket">[</span>16<span class="cite-bracket">]</span></a></sup>
-                </td>
+                <td>2017</td>
                 <td>
+                    AMD Epyc <a href="https://en.wikipedia.org/wiki/Epyc#First_generation_Epyc_(Naples)" title="Epyc">Naples</a><br>
+                    AMD Epyc <a href="https://en.wikipedia.org/wiki/Epyc#Second_generation_Epyc_(Rome)" title="Epyc">Rome</a><br>
+                    AMD Epyc <a href="https://en.wikipedia.org/wiki/Epyc#Third_generation_Epyc_(Milan)" title="Epyc">Milan</a>
                 </td>
-                <td>
-                </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>4094</td>
+                <td>?</td>
+                <td>Depende de la velocidad DDR4</td>
+                <td class="notes-cell">Compatible con procesadores AMD Epyc. Diseñado para servidores de alto rendimiento con soporte para múltiples sockets.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 1200.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1200"
-                        title="LGA 1200">LGA 1200</a>
-                </th>
-                <td>2020
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket TR4.jpg" alt="Socket TR4"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_TR4" title="Socket TR4">Socket TR4</a>/<br>Socket SP3r2
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Comet_Lake" title="Comet Lake">Comet Lake</a> (10ª
-                    gen)<br>Intel <a href="https://en.wikipedia.org/wiki/Rocket_Lake" title="Rocket Lake">Rocket
-                        Lake</a> (11ª gen)
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>1200
-                </td>
+                <td>2017</td>
                 <td>
+                    AMD Ryzen Threadripper (<a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Whitehaven_(Threadripper_1000_series,_Zen_based)" title="List of AMD Ryzen processors">serie 1000</a>)<br>
+                    AMD Ryzen Threadripper (<a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Colfax_(Threadripper_2000_series,_Zen+_based)" title="List of AMD Ryzen processors">serie 2000</a>)
                 </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>4094</td>
+                <td>?</td>
+                <td>Depende de la velocidad DDR4</td>
+                <td class="notes-cell">Compatible con procesadores AMD Ryzen Threadripper. Versión para entusiastas del socket SP3.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 1700.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1700"
-                        title="LGA 1700">LGA 1700</a>
-                </th>
-                <td>2021
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 2066.jpg" alt="LGA 2066"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_2066" title="LGA 2066">LGA 2066</a>/<br>
+                    <a href="https://en.wikipedia.org/wiki/Socket_R4" class="mw-redirect" title="Socket R4">Socket R4</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Alder_Lake" title="Alder Lake">Alder Lake</a> (12ª
-                    gen)<br>Intel <a href="https://en.wikipedia.org/wiki/Raptor_Lake" title="Raptor Lake">Raptor
-                        Lake</a> (13ª gen)
+                <td>2017</td>
+                <td>
+                    Intel Skylake-X<br>
+                    Intel Kaby Lake-X<br>
+                    Intel Cascade Lake-X
+                </td>
+                <td>Escritorio<br>Servidor</td>
+                <td>LGA</td>
+                <td>2066</td>
+                <td>?</td>
+                <td>?</td>
+                <td class="notes-cell">Usado para la serie de procesadores Core-X de Intel de 7ª generación (Skylake-X, Kaby Lake-X y Cascade Lake-X). Sucesor del LGA 2011-v3.</td>
+            </tr>
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket sTRX4.jpg" alt="Socket sTRX4"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_sTRX4" title="Socket sTRX4">Socket sTRX4</a>/<br>Socket SP3r3
+                </td>
+                <td>2019</td>
+                <td>
+                    AMD Ryzen Threadripper (<a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Castle_Peak_(Threadripper_3000_series,_Zen_2_based)" title="List of AMD Ryzen processors">serie 3000</a>)
+                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>4094</td>
+                <td>?</td>
+                <td>Depende de la velocidad DDR4</td>
+                <td class="notes-cell">Compatible con procesadores AMD Ryzen Threadripper de 3ª generación. No compatible con TR4 a pesar de usar el mismo número de pines.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 4189.jpg" alt="LGA 4189"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_4189" title="LGA 4189">LGA 4189</a>
+                </td>
+                <td>2020</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Cooper_Lake_(microprocessor)" title="Cooper Lake (microprocessor)">Cooper Lake</a><br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Ice_Lake_(microprocessor)" title="Ice Lake (microprocessor)">Ice Lake-SP</a>
+                </td>
+                <td>Escritorio<br>Servidor</td>
+                <td>LGA</td>
+                <td>4189<sup id="cite_ref-:0_18-0" class="reference"><a href="#cite_note-:0-18"><span class="cite-bracket">[</span>16<span class="cite-bracket">]</span></a></sup></td>
+                <td>0.99<sup id="cite_ref-:0_18-1" class="reference"><a href="#cite_note-:0-18"><span class="cite-bracket">[</span>16<span class="cite-bracket">]</span></a></sup></td>
+                <td></td>
+                <td class="notes-cell">Socket para servidores con soporte para PCIe 4.0 y memoria DDR4.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 1200.jpg" alt="LGA 1200"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1200" title="LGA 1200">LGA 1200</a>
+                </td>
+                <td>2020</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Comet_Lake" title="Comet Lake">Comet Lake</a> (10ª gen)<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Rocket_Lake" title="Rocket Lake">Rocket Lake</a> (11ª gen)
+                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>1200</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Sucesor del LGA 1151, con soporte para más núcleos y mayores velocidades de memoria.</td>
+            </tr>
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 1700.jpg" alt="LGA 1700"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1700" title="LGA 1700">LGA 1700</a>
+                </td>
+                <td>2021</td>
+                <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Alder_Lake" title="Alder Lake">Alder Lake</a> (12ª gen)<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Raptor_Lake" title="Raptor Lake">Raptor Lake</a> (13ª gen)
                     <p>Intel Raptor Lake (14ª gen)
                     </p>
                 </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>1700
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>1700</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Introdujo formato rectangular y soporte para arquitectura híbrida (P-cores y E-cores).</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket sWRX8.png" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_sWRX8"
-                        title="Socket sWRX8">Socket
-                        sWRX8</a>
-                </th>
-                <td>2022
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket sWRX8.png" alt="Socket sWRX8"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_sWRX8" title="Socket sWRX8">Socket sWRX8</a>
                 </td>
-                <td>AMD Ryzen Threadripper Pro (<a
-                        href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Chagall_(Threadripper_5000_series,_Zen_3_based)"
-                        title="List of AMD Ryzen processors">serie 5000</a>)
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>4094
-                </td>
+                <td>2022</td>
                 <td>
+                    AMD Ryzen Threadripper Pro (<a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Chagall_(Threadripper_5000_series,_Zen_3_based)" title="List of AMD Ryzen processors">serie 5000</a>)
                 </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>4094</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Versión profesional del socket Threadripper con soporte para mayor cantidad de memoria y características empresariales.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket AM5.png" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_AM5"
-                        title="Socket AM5">Socket
-                        AM5</a>
-                </th>
-                <td>2022
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket AM5.png" alt="Socket AM5"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_AM5" title="Socket AM5">Socket AM5</a>
                 </td>
-                <td>AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_7000_series"
-                        title="List of AMD Ryzen processors">serie 7000</a><br> AMD Ryzen <a
-                        href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_8000_series"
-                        title="List of AMD Ryzen processors">serie 8000</a> (APU)<br>AMD Ryzen <a
-                        href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_9000_series"
-                        title="List of AMD Ryzen processors">serie 9000</a>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>1718
-                </td>
+                <td>2022</td>
                 <td>
+                    AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_7000_series" title="List of AMD Ryzen processors">serie 7000</a><br>
+                    AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_8000_series" title="List of AMD Ryzen processors">serie 8000</a> (APU)<br>
+                    AMD Ryzen <a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Ryzen_9000_series" title="List of AMD Ryzen processors">serie 9000</a>
                 </td>
-                <td>
-                </td>
-                <td>CPU Ryzen Zen 4
-                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>1718</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">CPU Ryzen Zen 4. Primer socket LGA de AMD para el mercado de consumo, rompiendo con la tradición PGA. Soporta memoria DDR5 y PCIe 5.0.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket SP5.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_SP5"
-                        title="Socket SP5">Socket
-                        SP5</a>
-                </th>
-                <td>2022
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket SP5.jpg" alt="Socket SP5"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_SP5" title="Socket SP5">Socket SP5</a>
                 </td>
-                <td>AMD <a href="https://en.wikipedia.org/wiki/Epyc#Fourth_generation_Epyc_(Genoa,_Bergamo_and_Siena)"
-                        title="Epyc"> Epyc
-                        Genoa</a>
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>6096
-                </td>
+                <td>2022</td>
                 <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/Epyc#Fourth_generation_Epyc_(Genoa,_Bergamo_and_Siena)" title="Epyc"> Epyc Genoa</a>
                 </td>
-                <td>
-                </td>
-                <td>Usado para Epyc Genoa y Milan
-                </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>6096</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Usado para Epyc Genoa y Milan. Socket de gran tamaño para servidores de próxima generación con soporte para DDR5 y PCIe 5.0.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 4677.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_4677"
-                        title="LGA 4677">LGA 4677</a>
-                </th>
-                <td>2022
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 4677.jpg" alt="LGA 4677"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_4677" title="LGA 4677">LGA 4677</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Sapphire_Rapids_(microprocessor)" class="mw-redirect"
-                        title="Sapphire Rapids (microprocessor)">Sapphire Rapids</a> <br> Intel <a
-                        href="https://en.wikipedia.org/wiki/Emerald_Rapids_(microprocessor)" class="mw-redirect"
-                        title="Emerald Rapids (microprocessor)">Emerald Rapids</a>
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>4677
-                </td>
+                <td>2022</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Sapphire_Rapids_(microprocessor)" class="mw-redirect" title="Sapphire Rapids (microprocessor)">Sapphire Rapids</a> <br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Emerald_Rapids_(microprocessor)" class="mw-redirect" title="Emerald Rapids (microprocessor)">Emerald Rapids</a>
                 </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>4677</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Socket para servidores con soporte para DDR5 y PCIe 5.0.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket SP6.jpg" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_SP6"
-                        title="Socket SP6">Socket
-                        SP6</a>
-                </th>
-                <td>2023
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket SP6.jpg" alt="Socket SP6"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_SP6" title="Socket SP6">Socket SP6</a>
                 </td>
-                <td>AMD <a href="https://en.wikipedia.org/wiki/Epyc#Fourth_generation_Epyc_(Genoa,_Bergamo_and_Siena)"
-                        title="Epyc"> Epyc
-                        Siena</a>
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>4844
-                </td>
+                <td>2023</td>
                 <td>
+                    AMD <a href="https://en.wikipedia.org/wiki/Epyc#Fourth_generation_Epyc_(Genoa,_Bergamo_and_Siena)" title="Epyc"> Epyc Siena</a>
                 </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>4844</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Versión optimizada para eficiencia energética de los sockets EPYC.</td>
             </tr>
-            <tr style="vertical-align:center; background:#fdc;">
-                <TH><img class="img-socket" src="./SOCKET/Socket sTR5.png" alt=""></TH>
-                <th style="text-align:left; background:#fdc;"><a href="https://en.wikipedia.org/wiki/Socket_sTR5"
-                        title="Socket sTR5">Socket
-                        sTR5</a>
-                </th>
-                <td>2023
+            <tr class="bg-amd">
+                <td><img class="img-socket" src="./SOCKET/Socket sTR5.png" alt="Socket sTR5"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/Socket_sTR5" title="Socket sTR5">Socket sTR5</a>
                 </td>
-                <td>AMD Ryzen Threadripper<br> AMD Ryzen Threadripper Pro (<a
-                        href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Storm_Peak_(Threadripper_7000_series,_Zen_4_based)"
-                        title="List of AMD Ryzen processors">serie 7000</a>)
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>4844
-                </td>
+                <td>2023</td>
                 <td>
+                    AMD Ryzen Threadripper<br>
+                    AMD Ryzen Threadripper Pro (<a href="https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Storm_Peak_(Threadripper_7000_series,_Zen_4_based)" title="List of AMD Ryzen processors">serie 7000</a>)
                 </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>4844</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Sucesor del sTRX4 con soporte para DDR5 y PCIe 5.0.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 4710.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_4710"
-                        title="LGA 4710">LGA 4710</a>
-                </th>
-                <td>2023
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 4710.jpg" alt="LGA 4710"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_4710" title="LGA 4710">LGA 4710</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Granite_Rapids" title="Granite Rapids">Granite
-                        Rapids</a>
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>4710
-                </td>
+                <td>2023</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Granite_Rapids" title="Granite Rapids">Granite Rapids</a>
                 </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>4710</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Socket para próxima generación de procesadores Xeon.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 1851.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_1851"
-                        title="LGA 1851">LGA 1851</a>
-                </th>
-                <td>2024
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 1851.jpg" alt="LGA 1851"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_1851" title="LGA 1851">LGA 1851</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Meteor_Lake" title="Meteor Lake">Meteor Lake</a>-PS
-                    (Core Ultra Serie
-                    1)<br>Intel <a href="https://en.wikipedia.org/wiki/Arrow_Lake_(microprocessor)"
-                        title="Arrow Lake (microprocessor)">Arrow
-                        Lake</a> (Core Ultra Serie 200S)<br><abbr title="por anunciar">PA</abbr>
-                </td>
-                <td>Escritorio
-                </td>
-                <td>LGA
-                </td>
-                <td>1851
-                </td>
+                <td>2024</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Meteor_Lake" title="Meteor Lake">Meteor Lake</a>-PS (Core Ultra Serie 1)<br>
+                    Intel <a href="https://en.wikipedia.org/wiki/Arrow_Lake_(microprocessor)" title="Arrow Lake (microprocessor)">Arrow Lake</a> (Core Ultra Serie 200S)<br>
+                    <abbr title="por anunciar">PA</abbr>
                 </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td>Escritorio</td>
+                <td>LGA</td>
+                <td>1851</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Sucesor del LGA 1700 con soporte para nuevas generaciones de procesadores Intel.</td>
             </tr>
-            <tr style="vertical-align:center; background:#cdf;">
-                <TH><img class="img-socket" src="./SOCKET/LGA 7529.jpg" alt=""></TH>
-                <th style="text-align:left; background:#cdf;"><a href="https://en.wikipedia.org/wiki/LGA_7529"
-                        title="LGA 7529">LGA 7529</a>
-                </th>
-                <td>2024
+            <tr class="bg-intel">
+                <td><img class="img-socket" src="./SOCKET/LGA 7529.jpg" alt="LGA 7529"></td>
+                <td style="text-align:left;">
+                    <a href="https://en.wikipedia.org/wiki/LGA_7529" title="LGA 7529">LGA 7529</a>
                 </td>
-                <td>Intel <a href="https://en.wikipedia.org/wiki/Sierra_Forest" title="Sierra Forest">Sierra Forest</a>
-                </td>
-                <td>Servidor
-                </td>
-                <td>LGA
-                </td>
-                <td>7529
-                </td>
+                <td>2024</td>
                 <td>
+                    Intel <a href="https://en.wikipedia.org/wiki/Sierra_Forest" title="Sierra Forest">Sierra Forest</a>
                 </td>
-                <td>
-                </td>
-                <td>
-                </td>
+                <td>Servidor</td>
+                <td>LGA</td>
+                <td>7529</td>
+                <td></td>
+                <td></td>
+                <td class="notes-cell">Socket de próxima generación para servidores con gran cantidad de núcleos de eficiencia.</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th style="width:8em" class="headerSort" tabindex="0" role="columnheader button" title="Ordenar ascendente">
-                    Imagen del<br>socket
-                </th>
-                <th style="width:8em">Nombre del<br>socket
-                </th>
-                <th style="width:4em">Año de introducción
-                </th>
-                <th style="width:12em">Familias de CPU Compatibles
-                </th>
-                <th>Tipo de ordenador
-                </th>
-                <th>Encapsulado
-                </th>
-                <th>Número de pines
-                </th>
-                <th>Espaciado de pines<br>(mm)
-                </th>
-                <th>Reloj del bus y<br>transferencias
-                </th>
-                <th style="width:18em">Notas
-                </th>
+                <th style="width:8em">Imagen del<br>socket</th>
+                <th style="width:8em">Nombre del<br>socket</th>
+                <th style="width:4em">Año de introducción</th>
+                <th style="width:12em">Familias de CPU Compatibles</th>
+                <th>Tipo de ordenador</th>
+                <th>Encapsulado</th>
+                <th>Número de pines</th>
+                <th>Espaciado de pines<br>(mm)</th>
+                <th>Reloj del bus y<br>transferencias</th>
+                <th style="width:18em">Notas</th>
             </tr>
         </tfoot>
     </table>
 </body>
+
 <style data-mw-deduplicate="TemplateStyles:r1239543626">
     th {
         border: 1px solid black;
